@@ -1,0 +1,92 @@
+# Flashcards - Tema 01: Monitorização Hemodinâmica Invasiva
+
+Este arquivo contém flashcards no formato Anki-compatível (CSV).
+Para importar no Anki: File > Import > Selecionar este arquivo
+
+---
+
+## Formato: Frente | Verso | Tags
+
+Qual a fórmula para cálculo da PAM? | PAM = PAD + (PAS - PAD)/3 ou PAM = (PAS + 2×PAD)/3 | monitorizacao;hemodinamica;pam
+
+Qual a meta de PAM em choque séptico segundo a Surviving Sepsis Campaign? | PAM ≥ 65 mmHg (individualizar conforme perfusão e comorbidades) | choque;sepse;pam;metas
+
+O que é o Teste de Allen e quando deve ser realizado? | Teste para avaliar circulação colateral da mão antes de puncionar artéria radial. Deve ser realizado sempre antes da punção radial para garantir que há fluxo pela artéria ulnar caso haja oclusão da radial. | allen;radial;monitorizacao
+
+Quais as principais complicações da cateterização arterial? | Imediatas: hematoma, espasmo arterial. Precoces: trombose, isquemia distal, sangramento. Tardias: infecção, pseudoaneurisma, fístula arteriovenosa. | complicacoes;cateter;arterial
+
+Qual o melhor sítio de punção arterial em pacientes com choque? | Artéria femoral (maior calibre, maior fluxo, menor taxa de falha em situação de baixo débito). Radial é alternativa se anatomia favorável e teste de Allen positivo. | femoral;radial;choque;acesso
+
+O que representa a incisura dicrótica na curva de pressão arterial? | Marca o fechamento da válvula aórtica e o fim da sístole ventricular. Aparece como uma pequena elevação na fase descendente da curva. | curva;pressao;incisura;dicrotica
+
+Quais são as indicações principais para monitorização arterial invasiva? | 1) Choque de qualquer etiologia 2) Instabilidade hemodinâmica grave 3) Necessidade de vasopressores/inotrópicos 4) Insuficiência respiratória grave 5) Pós-operatório de cirurgias de grande porte 6) Coletas arteriais frequentes | indicacoes;pai;monitorizacao
+
+Paciente com PAS 120 mmHg e PAD 80 mmHg. Qual a PAM? | PAM = 80 + (120-80)/3 = 80 + 13.3 = 93.3 mmHg. Ou usando a fórmula alternativa: (120 + 2×80)/3 = 93.3 mmHg | calculo;pam;exercicio
+
+Qual a contraindicação ABSOLUTA para punção de artéria radial? | Infecção no local de punção. As demais (teste de Allen negativo, coagulopatia, trombocitopenia) são contraindicações relativas. | contraindicacao;radial;infeccao
+
+Como realizar o Teste de Allen? | 1) Comprimir simultaneamente artérias radial e ulnar 2) Paciente abre e fecha a mão várias vezes (palidez) 3) Liberar apenas a artéria ulnar 4) Observar retorno da coloração 5) Normal: coloração volta em < 7 segundos 6) Anormal: > 15 segundos (não puncionar radial) | allen;tecnica;procedimento
+
+Quais os componentes da onda de pressão arterial? | 1) Fase sistólica (ascendente): ejeção ventricular, pico = PAS 2) Incisura dicrótica: fechamento da válvula aórtica 3) Fase diastólica (descendente): diástole, vale = PAD | onda;pressao;componentes
+
+Paciente com PAI femoral apresenta ausência de pulso pedioso e palidez no membro. Qual a conduta? | Solicitar ecodoppler urgente e considerar remoção do cateter. Sinais de isquemia distal exigem avaliação urgente. Se confirmada trombose ou isquemia significativa, remover cateter imediatamente. | complicacao;isquemia;conduta
+
+Qual a diferença entre pressão arterial invasiva e não-invasiva no choque? | Na PAI: valores mais confiáveis, medida contínua, menor influência da vasoconstrição periférica. Na PANI: pode subestimar valores no choque devido à vasoconstrição e hipoperfusão periférica. | pai;pani;choque;diferenca
+
+Quando trocar o cateter arterial? | Não há necessidade de troca em tempo pré-determinado. Trocar apenas se: 1) Sinais de infecção local 2) Mau funcionamento 3) Isquemia distal 4) Não há benefício em trocar rotineiramente | cateter;troca;duracao
+
+Como zerar o transdutor de pressão? | 1) Posicionar transdutor no nível da linha axilar média (átrio direito) 2) Abrir sistema para o ar (atmosfera) 3) Apertar botão "zero" no monitor 4) Fechar para o ar e abrir para o paciente 5) Verificar curva adequada | transdutor;zero;calibracao
+
+## Flashcards - Tema 20: SDRA
+
+O que é SDRA? | Síndrome do Desconforto Respiratório Agudo: condição inflamatória pulmonar aguda caracterizada por aumento da permeabilidade capilar, edema pulmonar não-cardiogênico e hipoxemia refratária. | sdra;definicao
+
+Quais os critérios de Berlim para SDRA? | 1) Início ≤ 7 dias após fator de risco 2) Opacidades bilaterais ao RX/TC não explicadas por derrame/atelectasia 3) Não explicado por ICC ou sobrecarga hídrica 4) Hipoxemia: PaO2/FiO2 < 300 mmHg com PEEP ≥ 5 cmH2O | sdra;berlim;criterios
+
+Como classificar a gravidade da SDRA? | Leve: PaO2/FiO2 200-300 mmHg (mortalidade 27%). Moderada: 100-200 mmHg (mortalidade 32%). Grave: < 100 mmHg (mortalidade 45%). Todos com PEEP ≥ 5 cmH2O. | sdra;gravidade;classificacao
+
+Qual o volume corrente alvo na ventilação protetora? | 6 mL/kg de peso predito (PBW). Faixa aceitável: 4-8 mL/kg. Volume corrente baixo reduz mortalidade em SDRA. | ventilacao;protetora;volume
+
+Como calcular o peso predito (PBW)? | Homens: PBW = 50 + 0.91 × (altura_cm - 152.4). Mulheres: PBW = 45.5 + 0.91 × (altura_cm - 152.4). Usar PBW e NÃO peso real para cálculo do volume corrente. | pbw;peso;calculo
+
+Qual a meta de pressão de platô em SDRA? | Pplat ≤ 30 cmH2O. Pressões mais altas aumentam risco de barotrauma e volutrauma. Se Pplat > 30, reduzir volume corrente. | pplat;meta;pressao
+
+O que é Driving Pressure e qual o valor ideal? | ΔP = Pplat - PEEP. Representa a pressão necessária para insuflar os pulmões. Ideal < 15 cmH2O. É preditor independente de mortalidade, mais importante que Pplat ou VC isoladamente. | driving;pressure;delta
+
+Quando indicar posição prona em SDRA? | Indicado em SDRA grave (PaO2/FiO2 < 150 mmHg) nas primeiras 48 horas do diagnóstico. Duração: 16-18 horas por dia. Reduz mortalidade em ~50% em estudos. | prona;indicacao;sdra
+
+Quais os benefícios da posição prona? | 1) Reduz mortalidade em 28 e 90 dias 2) Melhora oxigenação 3) Reduz lesão pulmonar induzida por ventilação 4) Redistribui perfusão e ventilação 5) Facilita drenagem de secreções | prona;beneficios
+
+Quais as contraindicações para posição prona? | Absolutas: instabilidade hemodinâmica grave refratária, trauma/cirurgia facial ou de coluna recente, hipertensão intracraniana não controlada. Relativas: gestação avançada, fraturas instáveis, ostomias, feridas abdominais. | prona;contraindicacao
+
+Quando indicar bloqueio neuromuscular em SDRA? | SDRA grave (PaO2/FiO2 < 150 mmHg) com assincronia persistente apesar de sedação adequada. Duração: 48 horas. Droga: cisatracúrio 0.15 mg/kg/h. | bloqueio;neuromuscular;sdra
+
+O que é recrutamento alveolar? | Manobra que aumenta transitoriamente a PEEP ou pressão inspiratória para reabrir alvéolos colapsados. Objetivo: melhorar oxigenação. Cuidado: risco de barotrauma e instabilidade hemodinâmica. | recrutamento;alveolar;manobra
+
+Paciente com PaO2 65 mmHg e FiO2 50%. Qual o PaO2/FiO2? | PaO2/FiO2 = 65 / 0.5 = 130 mmHg → SDRA MODERADA (entre 100-200 mmHg) | pao2;fio2;calculo;exercicio
+
+O que é hipercapnia permissiva? | Estratégia que aceita PaCO2 elevada e pH reduzido (até 7.20) para permitir uso de volume corrente baixo e evitar lesão pulmonar. A hipercapnia é tolerada em favor da proteção pulmonar. | hipercapnia;permissiva;estrategia
+
+Quando considerar ECMO em SDRA? | SDRA grave refratária a todas as medidas: ventilação protetora otimizada, prona, bloqueio neuromuscular, e PaO2/FiO2 < 80 mmHg persistente. Considerar transferência para centro de ECMO. | ecmo;indicacao;refratario
+
+## Flashcards - Choque Séptico
+
+O que é sepse segundo Sepsis-3? | Disfunção orgânica potencialmente fatal causada por resposta desregulada do hospedeiro à infecção. Definida por SOFA ≥ 2 pontos em relação ao basal. | sepse;definicao;sepsis3
+
+O que é choque séptico segundo Sepsis-3? | Subgrupo da sepse com anormalidades circulatórias e metabólicas profundas. Critérios: 1) Necessidade de vasopressor para manter PAM ≥ 65 mmHg E 2) Lactato > 2 mmol/L após ressuscitação volêmica adequada. Mortalidade > 40%. | choque;septico;definicao
+
+Qual o "pacote de 1 hora" na sepse? | 1) Coleta de culturas (antes de ATB) 2) Antibiótico empírico de amplo espectro 3) Ressuscitação volêmica (30 mL/kg se hipotensão/lactato ≥ 4) 4) Vasopressor se hipotensão refratária 5) Mensuração de lactato (e reavaliação). | sepse;pacote;1hora;surviving
+
+Qual o vasopressor de primeira linha no choque séptico? | Noradrenalina. Aumenta PAM por vasoconstrição (agonista α1) com mínimo efeito em frequência cardíaca. Dose inicial: 0.05-0.1 mcg/kg/min. Titular para PAM ≥ 65 mmHg. | noradrenalina;vasopressor;choque
+
+Quando adicionar vasopressina no choque séptico? | Quando noradrenalina > 0.25-0.5 mcg/kg/min ou como segunda droga. Dose fixa: 0.03-0.04 U/min (não titular). Efeito poupador de noradrenalina, reduz arritmias. | vasopressina;choque;segunda;droga
+
+Quando usar corticoide no choque séptico? | Choque refratário (noradrenalina > 0.25 mcg/kg/min). Hidrocortisona 200 mg/dia (50 mg 6/6h ou infusão contínua). Não usar em choque responsivo a fluidos/vasopressores. | corticoide;hidrocortisona;choque
+
+Qual a meta de PAM no choque séptico? | PAM ≥ 65 mmHg. Individualizar: hipertensos crônicos podem necessitar PAM mais alta (75-85 mmHg). Avaliar perfusão (lactato, diurese, estado mental) além da PAM. | pam;meta;choque;65
+
+O que é lactato e por que é importante na sepse? | Produto do metabolismo anaeróbico. Lactato elevado indica hipoperfusão tecidual. Valor > 2 mmol/L após ressuscitação define choque séptico. Clearance de lactato > 10% em 2-4h indica melhora de perfusão. | lactato;sepse;perfusao
+
+Qual o volume inicial de ressuscitação na sepse? | 30 mL/kg de cristaloide nas primeiras 3 horas para pacientes com hipotensão ou lactato ≥ 4 mmol/L. Reavaliar após cada bolus. | ressuscitacao;volume;30ml;sepse
+
+Quais os critérios qSOFA? | 1) FR ≥ 22 irpm 2) Alteração do estado mental 3) PAS ≤ 100 mmHg. Se ≥ 2 positivos: suspeitar sepse e avaliar SOFA. qSOFA não define sepse, apenas identifica pacientes de risco. | qsofa;sepse;triagem
