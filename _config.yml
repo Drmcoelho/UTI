@@ -1,0 +1,16 @@
+# Jekyll configuration for GitHub Pages
+title: UTI
+description: Projeto UTI - Compatível com GitHub Pages
+baseurl: "/UTI"
+url: "https://drmcoelho.github.io"
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md
