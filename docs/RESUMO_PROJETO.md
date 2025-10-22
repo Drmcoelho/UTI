@@ -209,6 +209,12 @@ UTI/
 - [x] Guia de contribuição
 - [x] Template para notebooks
 
+### ✅ Automação e Deploy (2024)
+- [x] Módulo `notebooks/utils/hemodinamica.py` com funções reutilizáveis
+- [x] Testes automatizados via `pytest` para cálculos clínicos
+- [x] Workflow `Qualidade de Conteúdo` validando notebooks e utilidades a cada PR
+- [x] Portal Sphinx (`docs/site`) com publicação contínua para GitHub Pages
+
 **Referências:**
 - [x] Tabelas de referência rápida
 - [x] Algoritmos clínicos

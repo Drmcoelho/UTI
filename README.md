@@ -160,6 +160,28 @@ jupyter notebook
 # Navegue até notebooks/ e abra o tema desejado
 ```
 
+## 🛠️ Automação e Deploy
+
+### Validação Contínua
+O workflow **Qualidade de Conteúdo** (GitHub Actions) instala as dependências, executa os testes (`pytest`) e reexecuta todos os notebooks com `jupyter nbconvert --execute`. Os PRs só devem ser aprovados quando todos os checks estiverem verdes.
+
+Para rodar localmente:
+
+```bash
+pytest
+jupyter nbconvert --to notebook --execute notebooks/*.ipynb --output-dir build/notebooks
+```
+
+### Portal Público
+O diretório `docs/site` contém a configuração do Sphinx + nbsphinx. É possível gerar o site localmente com:
+
+```bash
+cd docs/site
+sphinx-build -b html . _build/html
+```
+
+Ao realizar push na branch `main`, o workflow **Publicar Documentação** publica automaticamente o conteúdo gerado no branch `gh-pages`. Ative o GitHub Pages nas configurações do repositório para disponibilizar o portal.
+
 ## 📚 Recursos por Tema
 
 Cada tema inclui:
