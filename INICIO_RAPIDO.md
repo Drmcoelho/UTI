@@ -275,6 +275,25 @@ set PYTHONIOENCODING=utf-8
 jupyter notebook
 ```
 
+### Problema 6: Erro 400 ao fazer login com Google
+
+Este repositório funciona localmente e **não exige autenticação** para abrir notebooks ou simuladores. Portanto, um erro HTTP 400 ao tentar usar "Login com Google" indica um problema de configuração em um serviço externo (por exemplo, um site complementar ou ambiente compartilhado mantido por outra equipe).
+
+Verifique no [Google Cloud Console](https://console.cloud.google.com/) se:
+
+- O **URI de redirecionamento** está exatamente igual ao endereço usado pelo serviço (incluindo protocolo `https://` ou `http://` e eventuais caminhos).
+- O **domínio** do serviço aparece na lista de **origens JavaScript autorizadas** e de **URIs de redirecionamento**.
+- O **tipo de conta autorizado** (usuários internos vs. externos) corresponde ao público que tentará acessar.
+- A tela de consentimento **OAuth consent screen** está publicada e com status **Approved**.
+
+Links úteis da documentação oficial do Google OAuth:
+
+- [Configurar tela de consentimento OAuth](https://developers.google.com/identity/protocols/oauth2/web-server#consentpage)
+- [Registrar URIs de redirecionamento autorizados](https://developers.google.com/identity/protocols/oauth2/web-server#redirect-uri)
+- [Erros comuns de OAuth 2.0](https://developers.google.com/identity/protocols/oauth2/web-server#handlingerrors)
+
+Se o login estiver sendo usado em um site externo associado ao projeto (por exemplo, uma plataforma de estudos hospedada pela sua instituição), entre em contato com o responsável por esse ambiente — geralmente o organizador do curso, administrador da plataforma ou a pessoa que forneceu o link. Caso não saiba quem é o responsável, registre a situação nas [Issues do repositório](https://github.com/Drmcoelho/UTI/issues) com o máximo de informações possível para que possamos direcionar o suporte.
+
 ### Ainda com problemas?
 
 - Abra uma Issue: https://github.com/Drmcoelho/UTI/issues
