@@ -1,5 +1,7 @@
 # Caso Clínico 01 - Choque Séptico com Instabilidade Hemodinâmica
 
+> **Integração com:** [Módulo 03 — Choque Séptico e Ressuscitação Hemodinâmica](../docs/modulo_03_choque_septico.md)
+
 ## 📋 Apresentação do Caso
 
 ### Identificação

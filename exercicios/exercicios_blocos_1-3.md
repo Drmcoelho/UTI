@@ -7,9 +7,13 @@
 - Revise os conceitos que errou
 - Gabarito ao final de cada seção
 
+> 🔗 **Mapeamento curricular:** este caderno integra os [módulos teóricos](../docs/mapa_curricular_modulos.md). Consulte o documento do módulo correspondente antes de iniciar cada bloco.
+
 ---
 
 ## 📝 BLOCO 1: Monitorização Hemodinâmica
+
+> Estude o [Módulo 01](../docs/modulo_01_monitorizacao_hemodinamica.md) e discuta o [caso clínico 02](../casos-clinicos/caso_02_monitorizacao_invasiva.md) antes de corrigir o gabarito.
 
 ### Questão 1
 Paciente de 70 anos, com choque séptico, está em uso de noradrenalina 0.3 mcg/kg/min. A pressão arterial invasiva mostra: 95/60 mmHg. Qual a PAM deste paciente?
@@ -50,6 +54,8 @@ E) Aumentar dose de vasopressor
 ---
 
 ## 🫁 BLOCO 2: SDRA e Ventilação Mecânica
+
+> Reforce a teoria no [Módulo 02](../docs/modulo_02_ventilacao_sdra.md) e revise o [caso clínico 03](../casos-clinicos/caso_03_sdra_refrataria.md) para contextualizar as respostas.
 
 ### Questão 5
 Paciente com pneumonia bilateral grave apresenta: PaO2 80 mmHg com FiO2 80%. Qual a relação PaO2/FiO2 e a classificação?
@@ -108,6 +114,8 @@ E) Obesidade mórbida
 ---
 
 ## 💉 BLOCO 3: Choque Séptico
+
+> Revise o [Módulo 03](../docs/modulo_03_choque_septico.md) e o [caso clínico 01](../casos-clinicos/caso_01_choque_septico.md) para consolidar o raciocínio antes de verificar o gabarito.
 
 ### Questão 11
 Segundo o Sepsis-3, o choque séptico é definido por:
