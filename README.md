@@ -160,6 +160,10 @@ jupyter notebook
 # Navegue até notebooks/ e abra o tema desejado
 ```
 
+### Plano de Estudos Sugerido
+
+Para organizar seu cronograma, consulte o plano integrado de 12 semanas disponível em [`docs/PLANO_DE_ESTUDOS_12_SEMANAS.md`](docs/PLANO_DE_ESTUDOS_12_SEMANAS.md). Ele combina notebooks, flashcards, simuladores e exercícios em ciclos semanais com revisões programadas.
+
 ## 📚 Recursos por Tema
 
 Cada tema inclui:
