@@ -317,6 +317,45 @@ Após 6 horas, paciente com noradrenalina 0.5 mcg/kg/min, PAM 68 mmHg, lactato 5
 | H12 | 72 | 3.8 | 40 mL/h | 0.35 | 50% | 170 |
 | H24 | 75 | 2.5 | 60 mL/h | 0.20 | 40% | 200 |
 
+## 🧭 Autoavaliação e Feedback
+
+Use os prompts abaixo para consolidar aprendizado e identificar lacunas antes de consultar materiais de apoio.
+
+1. **Reflita sobre a tomada de decisão inicial.** Você instituiu todo o pacote de 1 hora? Quais barreiras encontrou?
+   - <details>
+     <summary>Feedback guiado</summary>
+
+     Liste ações realizadas dentro da primeira hora (culturas, antibiótico, fluidos, vasopressor, lactato) e registre atrasos com suas causas prováveis.
+   </details>
+
+2. **Avalie sua estratificação de risco.** Quais variáveis você usa para acompanhar resposta ao tratamento nas primeiras 24h?
+   - <details>
+     <summary>Feedback guiado</summary>
+
+     Compare sua resposta com a tabela de acompanhamento (PAM, lactato, diurese, PaO2/FiO2) e proponha metas mensuráveis.
+   </details>
+
+3. **Cheque o reconhecimento de complicações.** Você identificaria precocemente sinais de isquemia de extremidades ou pneumotórax?
+   - <details>
+     <summary>Feedback guiado</summary>
+
+     Enumere sinais de alarme (frialdade, ausência de pulsos, dessaturação súbita, aumento de pressão de platô) e ações imediatas correspondentes.
+   </details>
+
+4. **Planeje próximos passos.** Em caso de choque refratário persistente, quais intervenções avançadas estão disponíveis na sua instituição?
+   - <details>
+     <summary>Feedback guiado</summary>
+
+     Liste recursos (vasopressina, corticoide, suporte circulatório, ECMO, controle de foco) e defina gatilhos objetivos para cada um.
+   </details>
+
+> **Checklist rápido de domínio**
+>
+> - [ ] Identifiquei claramente o foco infeccioso e o score SOFA
+> - [ ] Registrei metas de PAM, lactato, diurese e oxigenação
+> - [ ] Sei quando escalar terapia vasoativa e adjuvante
+> - [ ] Tenho plano para monitorar e tratar complicações frequentes
+
 ## 🎯 Pontos-Chave de Aprendizado
 
 1. **Reconhecimento precoce de choque séptico** é fundamental

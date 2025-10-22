@@ -160,6 +160,12 @@ jupyter notebook
 # Navegue até notebooks/ e abra o tema desejado
 ```
 
+## 🔄 Revisão Contínua do Conteúdo
+
+- Revisamos todos os materiais trimestralmente, guiados por indicadores de aprendizagem e novas evidências clínicas.
+- Consulte o plano detalhado em [`docs/REVIEW_CADENCE.md`](docs/REVIEW_CADENCE.md) para acompanhar cronograma, responsáveis e entregáveis.
+- Sugestões de atualização podem ser enviadas via issues marcadas com a etiqueta `review-qX` correspondente ao trimestre.
+
 ## 📚 Recursos por Tema
 
 Cada tema inclui:
