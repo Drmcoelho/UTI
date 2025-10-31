@@ -2,13 +2,48 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Literal, Tuple
+from typing import Literal, NamedTuple, Tuple
 
 import numpy as np
 import pandas as pd
 
 
 SexoBiologico = Literal["M", "F"]
+
+
+class VolumeCorrenteResult(NamedTuple):
+    """Resultado do cálculo de volume corrente ARDSNet.
+    
+    Attributes:
+        vc: Volume corrente alvo em mL (6 mL/kg do peso predito)
+        pbw: Peso corporal predito em kg
+    """
+    vc: float
+    pbw: float
+
+
+class TabelaPeepFio2(NamedTuple):
+    """Tabelas ARDSNet de combinações PEEP/FiO2.
+    
+    Attributes:
+        baixa: Tabela de estratégia PEEP baixa
+        alta: Tabela de estratégia PEEP alta
+    """
+    baixa: pd.DataFrame
+    alta: pd.DataFrame
+
+
+class CurvaPressaoResult(NamedTuple):
+    """Resultado da geração de curva de pressão arterial.
+    
+    Attributes:
+        tempo: Array de tempos em segundos
+        pressao: Array de pressões em mmHg
+        pam: Pressão arterial média em mmHg
+    """
+    tempo: np.ndarray
+    pressao: np.ndarray
+    pam: float
 
 
 @dataclass(frozen=True)
@@ -85,12 +120,12 @@ def calcular_peso_predito(altura_cm: float, sexo: SexoBiologico) -> float:
     return round(float(pbw), 1)
 
 
-def calcular_volume_corrente_ardsnet(altura_cm: float, sexo: SexoBiologico) -> Tuple[float, float]:
+def calcular_volume_corrente_ardsnet(altura_cm: float, sexo: SexoBiologico) -> VolumeCorrenteResult:
     """Retorna o volume corrente alvo (6 mL/kg) e o peso predito."""
 
     pbw = calcular_peso_predito(altura_cm, sexo)
     vc = pbw * 6
-    return round(vc, 0), pbw
+    return VolumeCorrenteResult(vc=round(vc, 0), pbw=pbw)
 
 
 def calcular_driving_pressure(pplat: float, peep: float) -> float:
@@ -99,7 +134,7 @@ def calcular_driving_pressure(pplat: float, peep: float) -> float:
     return float(pplat - peep)
 
 
-def criar_tabela_peep_fio2() -> Tuple[pd.DataFrame, pd.DataFrame]:
+def criar_tabela_peep_fio2() -> TabelaPeepFio2:
     """Gera as tabelas ARDSNet de PEEP/FiO2."""
 
     tabela_baixa = pd.DataFrame(
@@ -116,7 +151,7 @@ def criar_tabela_peep_fio2() -> Tuple[pd.DataFrame, pd.DataFrame]:
         }
     )
 
-    return tabela_baixa, tabela_alta
+    return TabelaPeepFio2(baixa=tabela_baixa, alta=tabela_alta)
 
 
 def gerar_curva_pressao(
@@ -125,7 +160,7 @@ def gerar_curva_pressao(
     fc: float,
     *,
     pontos: int = 1000,
-) -> Tuple[np.ndarray, np.ndarray, float]:
+) -> CurvaPressaoResult:
     """Calcula a série temporal de pressão arterial para um ciclo cardíaco."""
 
     periodo = 60 / fc
@@ -144,10 +179,13 @@ def gerar_curva_pressao(
             pressao[i] = pad + (pas - pad) * 0.5 * np.exp(-3 * fator) * (1 + np.cos(np.pi * fator))
 
     pam = calcular_pam(pas, pad)
-    return t, pressao, pam
+    return CurvaPressaoResult(tempo=t, pressao=pressao, pam=pam)
 
 
 __all__ = [
+    "VolumeCorrenteResult",
+    "TabelaPeepFio2",
+    "CurvaPressaoResult",
     "RespostaVasopressor",
     "calcular_pam",
     "simular_parametros_vasopressor",
