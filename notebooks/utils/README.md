@@ -4,16 +4,19 @@ Este módulo contém funções de visualização reutilizáveis para parâmetros
 
 ## Funções Disponíveis
 
-### `visualizar_parametros_ventilatorios(pbw, vc_alvo, pplat, peep, driving_pressure)`
+### `visualizar_parametros_ventilatorios(pbw, vc_alvo, pplat, peep, driving_pressure, *, volume_range_ml_per_kg=(4, 8), pressure_limits=None, show=True)`
 
 Cria visualização gráfica dos parâmetros ventilatórios utilizados em ventilação protetora para SDRA.
 
 **Parâmetros:**
 - `pbw` (float): Peso Predito (PBW - Predicted Body Weight) em kg
-- `vc_alvo` (float): Volume corrente alvo em mL (tipicamente 6 mL/kg PBW)
+- `vc_alvo` (float | None): Volume corrente alvo em mL. Caso seja `None`, o valor padrão de 6 mL/kg PBW é calculado automaticamente.
 - `pplat` (float): Pressão de platô em cmH2O
 - `peep` (float): PEEP (Positive End-Expiratory Pressure) em cmH2O
-- `driving_pressure` (float): Driving pressure (ΔP = Pplat - PEEP) em cmH2O
+- `driving_pressure` (float | None): Driving pressure (ΔP = Pplat - PEEP) em cmH2O. Se omitido, é calculado como `pplat - peep`.
+- `volume_range_ml_per_kg` (tuple[float, float]): Faixa (mínimo/máximo) exibida no gráfico de volume. Padrão: `(4, 8)` mL/kg.
+- `pressure_limits` (Sequence[float] | None): Limites exibidos como linhas de referência no gráfico de pressões. Por padrão usa `(5, 30, 15)`.
+- `show` (bool): Exibe (`True`) ou não (`False`) a figura imediatamente. Ideal para testes automatizados e dashboards.
 
 **Gráficos Gerados:**
 
@@ -44,6 +47,16 @@ driving_pressure = 18  # cmH2O
 
 # Gerar visualização
 visualizar_parametros_ventilatorios(pbw, vc_alvo, pplat, peep, driving_pressure)
+
+# Valores deduzidos automaticamente
+visualizar_parametros_ventilatorios(
+    pbw=66.0,
+    vc_alvo=None,  # 6 mL/kg calculado internamente
+    pplat=28,
+    peep=10,
+    driving_pressure=None,  # Calcula 18 cmH2O (28 - 10)
+    show=False,  # Retorna fig/axes para reutilização
+)
 ```
 
 ## Contexto
