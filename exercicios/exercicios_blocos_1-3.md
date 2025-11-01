@@ -14,6 +14,7 @@
 ## 📝 BLOCO 1: Monitorização Hemodinâmica
 
 > Estude o [Módulo 01](../docs/modulo_01_monitorizacao_hemodinamica.md) e discuta o [caso clínico 02](../casos-clinicos/caso_02_monitorizacao_invasiva.md) antes de corrigir o gabarito.
+> 💡 **Dica prática:** abra o [Notebook 01](../notebooks/01_monitorizacao_hemodinamica_invasiva.ipynb) e execute o simulador de curva arterial antes de responder às questões.
 
 ### Questão 1
 Paciente de 70 anos, com choque séptico, está em uso de noradrenalina 0.3 mcg/kg/min. A pressão arterial invasiva mostra: 95/60 mmHg. Qual a PAM deste paciente?
@@ -56,6 +57,7 @@ E) Aumentar dose de vasopressor
 ## 🫁 BLOCO 2: SDRA e Ventilação Mecânica
 
 > Reforce a teoria no [Módulo 02](../docs/modulo_02_ventilacao_sdra.md) e revise o [caso clínico 03](../casos-clinicos/caso_03_sdra_refrataria.md) para contextualizar as respostas.
+> 💡 **Dica prática:** execute o [Notebook 20](../notebooks/20_sdra.ipynb) para revisar as tabelas de PEEP/FiO2 antes de corrigir o gabarito.
 
 ### Questão 5
 Paciente com pneumonia bilateral grave apresenta: PaO2 80 mmHg com FiO2 80%. Qual a relação PaO2/FiO2 e a classificação?
@@ -116,6 +118,7 @@ E) Obesidade mórbida
 ## 💉 BLOCO 3: Choque Séptico
 
 > Revise o [Módulo 03](../docs/modulo_03_choque_septico.md) e o [caso clínico 01](../casos-clinicos/caso_01_choque_septico.md) para consolidar o raciocínio antes de verificar o gabarito.
+> 💡 **Dica prática:** reproduza o cenário integrado do [Notebook 21](../notebooks/21_casos_integrados_choque_sdra.ipynb) para testar condutas antes de checar as respostas.
 
 ### Questão 11
 Segundo o Sepsis-3, o choque séptico é definido por:
