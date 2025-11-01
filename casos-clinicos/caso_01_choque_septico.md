@@ -2,7 +2,7 @@
 
 > **Integração com:**
 > 🧭 **Conexão rápida:** acompanhe o fluxo decisório do [Notebook 21](../notebooks/21_casos_integrados_choque_sdra.ipynb) antes de discutir este caso.
- [Módulo 03 — Choque Séptico e Ressuscitação Hemodinâmica](../docs/modulo_03_choque_septico.md)
+> [Módulo 03 — Choque Séptico e Ressuscitação Hemodinâmica](../docs/modulo_03_choque_septico.md)
 
 ## 📋 Apresentação do Caso
 
