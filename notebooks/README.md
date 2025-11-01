@@ -8,11 +8,13 @@ Esta pasta contém **Jupyter Notebooks interativos** para cada um dos 100 temas 
 
 ### ✅ Completos
 1. `01_monitorizacao_hemodinamica_invasiva.ipynb` - Monitorização Hemodinâmica Invasiva
-2. `20_sdra.ipynb` - Síndrome do Desconforto Respiratório Agudo (SDRA)
-3. `21_casos_integrados_choque_sdra.ipynb` - Casos integrados com checkpoints de Monitorização, SDRA e Choque Séptico
+2. `02_monitorizacao_hemodinamica_nao_invasiva.ipynb` - Monitorização Hemodinâmica Não Invasiva
+3. `03_cateter_arteria_pulmonar.ipynb` - Cateter de Artéria Pulmonar (Swan-Ganz)
+4. `20_sdra.ipynb` - Síndrome do Desconforto Respiratório Agudo (SDRA)
+5. `21_casos_integrados_choque_sdra.ipynb` - Casos integrados com checkpoints de Monitorização, SDRA e Choque Séptico
 
 ### 🚧 Em Desenvolvimento
-Os demais 98 notebooks seguirão a mesma estrutura e serão adicionados progressivamente. Contribuições são bem-vindas!
+Os demais 95 notebooks seguirão a mesma estrutura e serão adicionados progressivamente. Contribuições são bem-vindas!
 
 ## 🎯 O que Cada Notebook Contém
 

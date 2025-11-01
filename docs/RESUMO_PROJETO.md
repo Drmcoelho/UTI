@@ -111,7 +111,7 @@ UTI/
 ### Arquivos Criados
 - **Total de arquivos**: 15
 - **Documentos Markdown**: 10
-- **Notebooks Jupyter**: 2
+- **Notebooks Jupyter**: 5
 - **Arquivos de texto**: 1
 - **Arquivos de configuração**: 2
 
@@ -124,7 +124,7 @@ UTI/
 - **Documentação**: ~900 linhas
 
 ### Conteúdo Educacional
-- **Temas completos**: 2 de 100 (01 e 20)
+- **Temas completos**: 5 de 100 (01, 02, 03, 20 e 21)
 - **Flashcards**: 40+
 - **Exercícios**: 20+ questões
 - **Casos clínicos**: 3 detalhados
@@ -164,6 +164,22 @@ UTI/
 - [x] 6 referências bibliográficas
 - [x] Checklist de competências
 
+**Notebook 02 - Monitorização Não Invasiva:**
+- [x] Quadro comparativo de dispositivos não invasivos
+- [x] Fluxograma Mermaid para seleção de recursos por perfil clínico
+- [x] Gráfico de tendência pressórica com metas de PAM
+- [x] Função Python para classificar estabilidade pela PAM, lactato e perfusão periférica
+- [x] Caso guiado conectado a `casos-clinicos/caso_02_monitorizacao_invasiva.md`
+- [x] Checklist para critérios de escalonamento
+
+**Notebook 03 - Cateter de Artéria Pulmonar:**
+- [x] Tabela com faixas pressóricas e achados patológicos
+- [x] Sequência Mermaid de implantação segura do CAP
+- [x] Rotinas para cálculo de RVS e alertas de SvO₂
+- [x] Gráfico combinado de débito cardíaco e saturação venosa mista
+- [x] Caso integrado relacionando choque refratário e SDRA
+- [x] Checklist de competências avançadas
+
 **Notebook 20 - SDRA:**
 - [x] Critérios de Berlim (Mermaid)
 - [x] Classificação de gravidade
@@ -194,6 +210,12 @@ UTI/
 - [x] 2 casos clínicos integrados
 - [x] Gabarito com justificativas
 - [x] Sistema de pontuação
+
+**Notebook 21 - Casos Integrados (Choque + SDRA):**
+- [x] Trilhas de checkpoints articulando notebooks 01, 20 e 32/40/41
+- [x] Cenários ramificados com feedback imediato
+- [x] Links diretos para casos clínicos e exercícios correspondentes
+- [x] Checklist final para consolidação intermodular
 
 **Flashcards:**
 - [x] 40+ cards
@@ -464,21 +486,21 @@ Ao final, o estudante será capaz de:
 ### Concluído (✅)
 - Infraestrutura completa
 - Documentação abrangente
-- 2 notebooks exemplares
+- 5 notebooks exemplares
 - Casos clínicos modelo
 - Exercícios implementados
 - Flashcards sistema
 - Simuladores funcionais
 
 ### Em Andamento (🚧)
-- Notebooks 02-19 (Temas 2-19)
-- Notebooks 21-100 (Temas 21-100)
+- Notebooks 04-19 (Temas 4-19)
+- Notebooks 22-100 (Temas 22-100)
 - Mais casos clínicos
 - Vídeos explicativos
 - App mobile
 
 ### Planejado (📅)
-- 98 notebooks restantes
+- 95 notebooks restantes
 - Sistema de certificação
 - Plataforma web
 - Tradução para inglês
@@ -564,7 +586,7 @@ Este repositório representa uma base sólida para um projeto de educação méd
 
 - **15 arquivos** criados
 - **2,637+ linhas** de conteúdo
-- **2 notebooks completos** e exemplares
+- **5 notebooks completos** e exemplares
 - **Documentação abrangente**
 - **Infraestrutura pronta** para expansão
 
