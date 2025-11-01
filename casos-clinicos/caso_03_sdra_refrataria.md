@@ -1,6 +1,8 @@
 # Caso Clínico 03 — SDRA Grave com Hipoxemia Refratária
 
-> **Integração com:** [Módulo 02 — Ventilação Mecânica e SDRA](../docs/modulo_02_ventilacao_sdra.md)
+> **Integração com:**
+> 🧭 **Conexão rápida:** explore o [Notebook 20](../notebooks/20_sdra.ipynb) para revisar as estratégias ventilatórias antes de responder às perguntas.
+ [Módulo 02 — Ventilação Mecânica e SDRA](../docs/modulo_02_ventilacao_sdra.md)
 
 ## 📋 Apresentação do Caso
 

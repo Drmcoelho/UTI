@@ -23,6 +23,7 @@ Use estes flashcards para revisão ativa diária. Cubra a resposta com a mão, r
 | Meta para driving pressure? | < 15 cmH₂O |
 
 ## Módulo 03 — Choque Séptico e Ressuscitação
+> 🔁 **Integração:** revise o cenário interativo do [Notebook 21](../notebooks/21_casos_integrados_choque_sdra.ipynb) antes de praticar estes cards.
 
 | Pergunta | Resposta |
 | --- | --- |
