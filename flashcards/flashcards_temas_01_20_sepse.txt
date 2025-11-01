@@ -38,6 +38,7 @@ Quando trocar o cateter arterial? | Não há necessidade de troca em tempo pré-
 Como zerar o transdutor de pressão? | 1) Posicionar transdutor no nível da linha axilar média (átrio direito) 2) Abrir sistema para o ar (atmosfera) 3) Apertar botão "zero" no monitor 4) Fechar para o ar e abrir para o paciente 5) Verificar curva adequada | transdutor;zero;calibracao
 
 ## Flashcards - Tema 20: SDRA
+> 🔁 **Integração:** revise os algoritmos do [Notebook 20](../notebooks/20_sdra.ipynb) antes de praticar estes cards.
 
 O que é SDRA? | Síndrome do Desconforto Respiratório Agudo: condição inflamatória pulmonar aguda caracterizada por aumento da permeabilidade capilar, edema pulmonar não-cardiogênico e hipoxemia refratária. | sdra;definicao
 

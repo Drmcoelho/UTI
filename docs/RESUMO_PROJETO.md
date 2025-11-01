@@ -25,27 +25,50 @@ UTI/
 ├── 📄 requirements.txt
 │   └── Dependências Python (Jupyter, NumPy, Pandas, etc.)
 │
-├── 📂 notebooks/ (2 completos de 100)
-│   ├── 01_monitorizacao_hemodinamica_invasiva.ipynb (636 linhas)
-│   │   ├── Teoria completa
+├── 📂 notebooks/ (7 completos de 100)
+│   ├── 01_monitorizacao_hemodinamica_invasiva.ipynb (~800 linhas)
+│   │   ├── Fundamentos de monitorização invasiva e curvas arteriais
 │   │   ├── Diagramas Mermaid (flowcharts + mindmaps)
 │   │   ├── Simulador interativo de curvas de pressão
-│   │   ├── Calculadora de PAM
-│   │   ├── 6 flashcards integrados
-│   │   ├── 3 exercícios com gabarito
-│   │   ├── Caso clínico de choque
-│   │   └── 6 referências bibliográficas
+│   │   ├── Calculadora de PAM e desafios de interpretação
+│   │   └── Caso clínico com discussão guiada
 │   │
-│   ├── 20_sdra.ipynb (570 linhas)
+│   ├── 02_monitorizacao_hemodinamica_nao_invasiva.ipynb (~200 linhas)
+│   │   ├── Comparativo de métodos não invasivos (PAM, ecocardio, doppler)
+│   │   ├── Fluxo de decisão em Mermaid
+│   │   ├── Análise de tendências pressóricas com Pandas
+│   │   └── Função de triagem de estabilidade clínica
+│   │
+│   ├── 03_cateter_arteria_pulmonar.ipynb (~230 linhas)
+│   │   ├── Curvas características do Swan-Ganz
+│   │   ├── Sequência segura de implantação
+│   │   ├── Cálculos de RVS e transporte de oxigênio
+│   │   └── Casos integrados com gráficos de débito cardíaco
+│   │
+│   ├── 04_ecocardiografia_beira_do_leito.ipynb (~240 linhas)
+│   │   ├── Checklist de janelas ecocardiográficas
+│   │   ├── Tabela de aquisição rápida com Pandas
+│   │   ├── Calculadora interativa de débito cardíaco com Plotly
+│   │   └── Algoritmo para estratificar congestão venosa
+│   │
+│   ├── 05_oximetria_capnografia.ipynb (~220 linhas)
+│   │   ├── Algoritmo de desaturação em Mermaid
+│   │   ├── Curva estimada SpO₂ vs PaO₂ com Plotly
+│   │   ├── Calculadora interativa do gradiente A-a
+│   │   └── Simulações de padrões de capnografia
+│   │
+│   ├── 20_sdra.ipynb (~800 linhas)
 │   │   ├── Teoria completa de SDRA
 │   │   ├── Diagramas Mermaid (critérios de Berlim)
-│   │   ├── Calculadora de ventilação protetora
-│   │   ├── Calculadora de PBW e VC
+│   │   ├── Calculadora de ventilação protetora e PBW
 │   │   ├── Simulador de driving pressure
-│   │   ├── Tabela PEEP/FiO2 ARDSNet
-│   │   ├── 6 flashcards integrados
-│   │   ├── 2 casos clínicos complexos
-│   │   └── 6 referências bibliográficas
+│   │   └── Casos clínicos avançados
+│   │
+│   ├── 21_casos_integrados_choque_sdra.ipynb (~620 linhas)
+│   │   ├── Checkpoints sequenciais de monitorização e SDRA
+│   │   ├── Tabelas de síntese de dados laboratoriais
+│   │   ├── Perguntas de reflexão guiadas
+│   │   └── Referências cruzadas com casos clínicos
 │   │
 │   └── README.md
 │       └── Guia de uso dos notebooks
@@ -109,22 +132,22 @@ UTI/
 ## 📊 Estatísticas do Projeto
 
 ### Arquivos Criados
-- **Total de arquivos**: 15
+- **Total de arquivos**: 17
 - **Documentos Markdown**: 10
-- **Notebooks Jupyter**: 2
+- **Notebooks Jupyter**: 7
 - **Arquivos de texto**: 1
 - **Arquivos de configuração**: 2
 
 ### Linhas de Código/Conteúdo
-- **Total**: ~2,637 linhas
+- **Total**: ~3,200 linhas
 - **README principal**: 240 linhas
-- **Notebooks**: 1,206 linhas (código + conteúdo)
+- **Notebooks**: ~3,100 linhas (código + conteúdo)
 - **Casos clínicos**: 337 linhas
 - **Exercícios**: 357 linhas
 - **Documentação**: ~900 linhas
 
 ### Conteúdo Educacional
-- **Temas completos**: 2 de 100 (01 e 20)
+- **Temas completos**: 7 de 100 (01, 02, 03, 04, 05, 20 e 21)
 - **Flashcards**: 40+
 - **Exercícios**: 20+ questões
 - **Casos clínicos**: 3 detalhados
@@ -164,6 +187,22 @@ UTI/
 - [x] 6 referências bibliográficas
 - [x] Checklist de competências
 
+**Notebook 02 - Monitorização Não Invasiva:**
+- [x] Quadro comparativo de dispositivos não invasivos
+- [x] Fluxograma Mermaid para seleção de recursos por perfil clínico
+- [x] Gráfico de tendência pressórica com metas de PAM
+- [x] Função Python para classificar estabilidade pela PAM, lactato e perfusão periférica
+- [x] Caso guiado conectado a `casos-clinicos/caso_02_monitorizacao_invasiva.md`
+- [x] Checklist para critérios de escalonamento
+
+**Notebook 03 - Cateter de Artéria Pulmonar:**
+- [x] Tabela com faixas pressóricas e achados patológicos
+- [x] Sequência Mermaid de implantação segura do CAP
+- [x] Rotinas para cálculo de RVS e alertas de SvO₂
+- [x] Gráfico combinado de débito cardíaco e saturação venosa mista
+- [x] Caso integrado relacionando choque refratário e SDRA
+- [x] Checklist de competências avançadas
+
 **Notebook 20 - SDRA:**
 - [x] Critérios de Berlim (Mermaid)
 - [x] Classificação de gravidade
@@ -194,6 +233,12 @@ UTI/
 - [x] 2 casos clínicos integrados
 - [x] Gabarito com justificativas
 - [x] Sistema de pontuação
+
+**Notebook 21 - Casos Integrados (Choque + SDRA):**
+- [x] Trilhas de checkpoints articulando notebooks 01, 20 e 32/40/41
+- [x] Cenários ramificados com feedback imediato
+- [x] Links diretos para casos clínicos e exercícios correspondentes
+- [x] Checklist final para consolidação intermodular
 
 **Flashcards:**
 - [x] 40+ cards
@@ -464,21 +509,21 @@ Ao final, o estudante será capaz de:
 ### Concluído (✅)
 - Infraestrutura completa
 - Documentação abrangente
-- 2 notebooks exemplares
+- 5 notebooks exemplares
 - Casos clínicos modelo
 - Exercícios implementados
 - Flashcards sistema
 - Simuladores funcionais
 
 ### Em Andamento (🚧)
-- Notebooks 02-19 (Temas 2-19)
-- Notebooks 21-100 (Temas 21-100)
+- Notebooks 04-19 (Temas 4-19)
+- Notebooks 22-100 (Temas 22-100)
 - Mais casos clínicos
 - Vídeos explicativos
 - App mobile
 
 ### Planejado (📅)
-- 98 notebooks restantes
+- 95 notebooks restantes
 - Sistema de certificação
 - Plataforma web
 - Tradução para inglês
@@ -564,7 +609,7 @@ Este repositório representa uma base sólida para um projeto de educação méd
 
 - **15 arquivos** criados
 - **2,637+ linhas** de conteúdo
-- **2 notebooks completos** e exemplares
+- **5 notebooks completos** e exemplares
 - **Documentação abrangente**
 - **Infraestrutura pronta** para expansão
 

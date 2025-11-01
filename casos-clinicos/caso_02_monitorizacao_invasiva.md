@@ -1,6 +1,8 @@
 # Caso Clínico 02 — Monitorização Hemodinâmica Invasiva em Choque Refratário
 
-> **Integração com:** [Módulo 01 — Monitorização Hemodinâmica](../docs/modulo_01_monitorizacao_hemodinamica.md)
+> **Integração com:**
+> 🧭 **Conexão rápida:** revise o [Notebook 01](../notebooks/01_monitorizacao_hemodinamica_invasiva.ipynb) para relembrar as curvas arteriais antes de discutir o caso.
+ [Módulo 01 — Monitorização Hemodinâmica](../docs/modulo_01_monitorizacao_hemodinamica.md)
 
 ## 📋 Apresentação do Caso
 
