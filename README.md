@@ -192,6 +192,18 @@ Cada tema inclui:
    - Mind maps conceituais
    - Diagramas anatômicos
 
+## 🌐 Publicação na Render
+
+Para colocar o site no ar com o conteúdo estático hospedado em `docs/`, utilize o manifesto `render.yaml` incluído neste repositório.
+
+1. Crie um serviço *Web Service* na Render apontando para este repositório.
+2. Na etapa de build, confirme que o campo **Build Command** está definido como `pip install -r requirements.txt`.
+3. Em **Start Command**, informe `python -m http.server --directory docs $PORT` para servir diretamente a homepage `docs/index.html`.
+4. Defina a variável de ambiente `PYTHON_VERSION` (ex.: `3.11.5`) e mantenha o plano *Free* ou equivalente.
+5. Após o deploy inicial, valide o healthcheck acessando `https://<seu-servico>.onrender.com/`.
+
+Alternativamente, é possível aplicar o manifesto via CLI com `render.yaml`, garantindo que futuras alterações no repositório atualizem automaticamente o serviço (`autoDeploy: true`).
+
 ## 🤝 Como Contribuir
 
 Este é um projeto de código aberto! Contribuições são muito bem-vindas:
