@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: uti-360
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m http.server --directory docs $PORT
+    autoDeploy: true
+    healthCheckPath: /
