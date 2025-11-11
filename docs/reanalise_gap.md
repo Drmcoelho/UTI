@@ -16,6 +16,8 @@
 | `modulo_01_monitorizacao_hemodinamica.md` | Plano instrucional para monitorização invasiva com competências, carga horária e critérios de conclusão. | Objetivo 1 – Monitorização Hemodinâmica Invasiva.【F:docs/modulo_01_monitorizacao_hemodinamica.md†L1-L46】 |
 | `modulo_02_monitorizacao_nao_invasiva.md` | Guia para trending não invasivo com PAM oscilométrica, PI e ecocardiografia POCUS. | Objetivo 2 – Monitorização hemodinâmica não invasiva.【F:docs/modulo_02_monitorizacao_nao_invasiva.md†L1-L44】 |
 | `modulo_03_cateter_arteria_pulmonar.md` | Plano instrucional para uso do cateter de artéria pulmonar, cálculos de IC/RVS/RVP e critérios de retirada. | Objetivo 3 – Cateter de artéria pulmonar (Swan-Ganz).【F:docs/modulo_03_cateter_arteria_pulmonar.md†L1-L44】 |
+| `modulo_02_ventilacao_sdra.md` | Guia completo para ventilação protetora e adjuvantes na SDRA. | Objetivo 20 – SDRA e ventilação mecânica.【F:docs/modulo_02_ventilacao_sdra.md†L1-L44】 |
+| `modulo_03_choque_septico.md` | Roteiro para manejo do choque séptico com pacotes terapêuticos e monitorização. | Objetivos 32, 40 e 41 – Choque séptico, sepse grave e campanha de sobrevivência.【F:docs/modulo_03_choque_septico.md†L1-L44】 |
 | `index.html` | Site estático com overview do programa, links para módulos ativos e chamada direta para o guia integrado. | Facilita navegação rápida pelos módulos completos e materiais complementares.【F:docs/index.html†L300-L428】 |
 | `files/UTI_Mega_Notebook_FINAL.ipynb` | Placeholder legado sem conteúdo publicado. | Reservado para consolidação futura; não cobre objetivos no estado atual.【F:docs/files/UTI_Mega_Notebook_FINAL.ipynb†L1-L1】 |
 
@@ -52,6 +54,8 @@
 | `modulo_01_pressao_invasiva.py` | Calculadora de PAM, classificação de curva e ajuste de vasopressor baseado em PPV. | Objetivo 1 – Monitorização invasiva.【F:simuladores/modulo_01_pressao_invasiva.py†L1-L75】 |
 | `modulo_02_monitorizacao_nao_invasiva.py` | Ferramentas para validar séries de PAM, estimar débito cardíaco e gerar alertas de escalonamento. | Objetivo 2 – Monitorização não invasiva.【F:simuladores/modulo_02_monitorizacao_nao_invasiva.py†L1-L58】 |
 | `modulo_03_cateter_arteria_pulmonar.py` | Cálculo de IC, resistências e prontidão para retirada do CAP. | Objetivo 3 – Cateter de artéria pulmonar.【F:simuladores/modulo_03_cateter_arteria_pulmonar.py†L1-L60】 |
+| `README_simulador_noradrenalina.md` | Guia de simuladores de titulação vasoativa (Noradrenalina). | Objetivos 32, 40, 41 (manejo de choque séptico).【F:simuladores/README_simulador_noradrenalina.md†L1-L48】 |
+| `quiz_objetivos_modulos.md` | Simulador textual de autoavaliação com cenários para módulos 01–03. | Objetivos 1, 20, 32, 40 e 41.【F:simuladores/quiz_objetivos_modulos.md†L1-L96】 |
 
 ### recursos/
 | Recurso | Conteúdo | Objetivos cobertos |
@@ -63,4 +67,5 @@
 - **Módulos integrados sem material completo:** embora o `mapa_curricular_modulos.md` liste módulos 01–03 com elementos combinados, não há conteúdos similares para os demais 97 módulos, deixando grande parte da matriz curricular vazia.【F:docs/mapa_curricular_modulos.md†L1-L19】
 - **Documentos e arquivos placeholder sem utilização:** `docs/files/UTI_Mega_Notebook_FINAL.ipynb` permanece reservado sem conteúdo, enquanto o site `docs/index.html` já apresenta overview atualizado com links diretos.【F:docs/files/UTI_Mega_Notebook_FINAL.ipynb†L1-L1】【F:docs/index.html†L300-L428】
 - **Falta de recursos práticos para outros eixos:** ainda não há casos, simuladores ou flashcards para temas além dos módulos 01–03, mantendo lacunas em emergências neurológicas, distúrbios metabólicos, suporte renal e demais tópicos do roadmap.【F:README.md†L27-L87】
+- **Falta de recursos práticos para outros eixos:** não existem casos clínicos, simuladores ou flashcards cobrindo temas além de monitorização, SDRA e choque séptico, deixando lacunas em emergências neurológicas, distúrbios metabólicos, suporte renal, entre outros listados no README.【F:README.md†L27-L87】【F:flashcards/flashcards_modulos_integrados.md†L1-L40】
 - **Escalonamento dependente de novos notebooks:** o template e o novo notebook 21 oferecem estrutura para expansão, mas não há produção iniciada para os demais temas; é necessário priorizar cronograma de criação para atingir metas 2026.【F:docs/TEMPLATE_NOTEBOOK.md†L1-L69】【F:notebooks/README.md†L9-L23】

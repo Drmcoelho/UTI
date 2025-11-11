@@ -44,6 +44,9 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 |1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
 |2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
 |3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|✅|✅|✅|✅|✅|✅|
+|1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|⬜️|✅|✅|
+|2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|
+|3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|
 |4|Ecocardiografia à Beira do Leito (Point-of-Care)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |5|Oximetria e Capnografia|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |6|Monitorização da Pressão Intracraniana (PIC)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|

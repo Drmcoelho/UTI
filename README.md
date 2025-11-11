@@ -26,6 +26,13 @@ As frentes educacionais previstas contemplam:
 - ✅ **Scriptable:** widgets prontos para uso beira-leito nos módulos 01, 02 e 03.
 - ✅ **Testes automatizados:** suíte abrange os simuladores e utilidades dos módulos iniciais.
 - ⏳ **Demais módulos:** acompanhados pela tabela de progresso central em [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md).
+- ✅ **Notebooks publicados:** 5 de 100 (módulos 01, 02, 03, 20 e 21)
+- ✅ **Casos clínicos:** 3 integrações alinhadas aos módulos publicados
+- ✅ **Flashcards:** conjuntos para os módulos 01 e 20
+- ✅ **Exercícios:** bloco consolidado para os três primeiros módulos
+- ✅ **Simuladores interativos:** disponíveis nos módulos 01 e 20
+- ⚠️ **Scriptable:** script inicial entregue para o módulo 01
+- ⏳ **Demais módulos:** acompanhados pela tabela de progresso central em [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md)
 
 ## 🗂️ Estrutura do Projeto
 
