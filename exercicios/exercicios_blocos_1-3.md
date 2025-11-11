@@ -124,5 +124,5 @@
 **Gabarito comentado:**
 9. C — O CAP permite diferenciar fenótipo hemodinâmico e ajustar suporte avançado.
 10. B — PCP > 18 mmHg sugere congestão; reavaliar ventilação e diuréticos.
-11. D — RVS = 80 × (70 − 12) / 4 ≈ 1.040 dyn·s·cm⁻⁵.
+11. E — RVS = 80 × (70 − 12) / 4 = 1.160 dyn·s·cm⁻⁵.
 12. C — Retirada segura depende de estabilidade hemodinâmica sustentada.
