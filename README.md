@@ -2,7 +2,9 @@
 
 ## 📚 Sobre o Projeto
 
-Repositório público gratuito dedicado à educação médica em Unidade de Terapia Intensiva (UTI) para estudantes de medicina. O projeto oferece conteúdo de nível avançado com múltiplas ferramentas de aprendizado, incluindo:
+Repositório público gratuito dedicado à educação médica em Unidade de Terapia Intensiva (UTI) para estudantes de medicina. O projeto oferece conteúdo de nível avançado com múltiplas ferramentas de aprendizado, reunidas e acompanhadas pelo [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md), o ponto único de verdade do programa.
+
+As frentes educacionais previstas contemplam:
 
 - 🎯 **100 Temas Fundamentais** de UTI
 - 📝 **Jupyter Notebooks Interativos** para cada tema
@@ -12,6 +14,17 @@ Repositório público gratuito dedicado à educação médica em Unidade de Tera
 - 🎮 **Simuladores** interativos
 - ❓ **Exercícios** em múltiplos formatos
 - 📖 **Teoria Robusta** e atualizada
+- 📱 **Scripts Scriptable** para apoio beira-leito
+
+## 📈 Estado Atual de Entrega
+
+- ✅ **Notebooks publicados:** 5 de 100 (módulos 01, 02, 03, 20 e 21)
+- ✅ **Casos clínicos:** 3 integrações alinhadas aos módulos publicados
+- ✅ **Flashcards:** conjuntos para os módulos 01 e 20
+- ✅ **Exercícios:** bloco consolidado para os três primeiros módulos
+- ✅ **Simuladores interativos:** disponíveis nos módulos 01 e 20
+- ⚠️ **Scriptable:** script inicial entregue para o módulo 01
+- ⏳ **Demais módulos:** acompanhados pela tabela de progresso central em [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md)
 
 ## 🗂️ Estrutura do Projeto
 
@@ -163,36 +176,56 @@ jupyter notebook
 ## 🔄 Revisão Contínua do Conteúdo
 
 - Revisamos todos os materiais trimestralmente, guiados por indicadores de aprendizagem e novas evidências clínicas.
-- Consulte o plano detalhado em [`docs/REVIEW_CADENCE.md`](docs/REVIEW_CADENCE.md) para acompanhar cronograma, responsáveis e entregáveis.
+- A cadência oficial, checklists e responsabilidades estão consolidados em [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md).
 - Sugestões de atualização podem ser enviadas via issues marcadas com a etiqueta `review-qX` correspondente ao trimestre.
 
 ## 📚 Recursos por Tema
 
-Cada tema inclui:
+Cada módulo deve conter, no mínimo, os componentes abaixo. O status consolidado encontra-se no [`docs/GUIA_INTEGRADO.md`](docs/GUIA_INTEGRADO.md).
 
-1. **Notebook Interativo** (`.ipynb`)
-   - Teoria completa
+1. **Notebook Interativo** (`notebooks/NN_tema.ipynb`)
+   - Teoria estruturada
    - Diagramas Mermaid
-   - Código executável
+   - Cálculos automatizados
    - Exemplos práticos
 
-2. **Flashcards** (formato Anki compatível)
+2. **Casos Clínicos Aplicados** (`casos-clinicos/caso_NN_*.md`)
+   - Apresentação do cenário
+   - Perguntas norteadoras
+   - Discussão guiada
+
+3. **Flashcards** (`flashcards/NN_tema.txt`)
    - Revisão espaçada
    - Conceitos-chave
-   - Memorização ativa
+   - Tags para filtragem
 
-3. **Exercícios**
-   - Múltipla escolha
-   - Casos clínicos
-   - Questões discursivas
+4. **Exercícios** (`exercicios/NN_*.md`)
+   - Questões objetivas
+   - Estudos de caso
+   - Gabarito comentado
 
-4. **Recursos Visuais**
-   - Tabelas de referência rápida
-   - Flowcharts de decisão
+5. **Simuladores** (`simuladores/NN_*.md` ou apps dedicados)
+   - Parâmetros configuráveis
+   - Feedback em tempo real
+
+6. **Recursos Visuais** (`recursos/NN/`)
+   - Tabelas de referência
+   - Flowcharts
    - Mind maps conceituais
-   - Diagramas anatômicos
 
-## 🌐 Publicação na Render
+7. **Scriptable JS** (`scriptable/NN_tema.js`)
+   - Script pronto para uso no iOS
+   - Entrada rápida de parâmetros clínicos
+
+## 🌐 Publicação
+
+### GitHub Pages
+
+1. Acesse as configurações do repositório na aba **Pages**.
+2. Defina a branch principal e a pasta `/docs` como fonte.
+3. Após salvar, o site será disponibilizado no domínio `<usuario>.github.io/<repositorio>`.
+
+### Deploy na Render
 
 Para colocar o site no ar com o conteúdo estático hospedado em `docs/`, utilize o manifesto `render.yaml` incluído neste repositório.
 

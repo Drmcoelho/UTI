@@ -3,7 +3,7 @@
 Este roadmap organiza a evolução do projeto em três fases principais, cada uma aprofundando o engajamento com os materiais educativos e competências clínicas abordadas no repositório.
 
 ## 1. Orientação Fundacional
-- **Definir objetivos de aprendizagem:** Revisar `README.md`, `INICIO_RAPIDO.md` e diretórios-chave (`docs/`, `notebooks/`, `flashcards/`) para mapear as competências (fisiopatologia, farmacologia, raciocínio clínico, etc.) priorizadas.
+- **Definir objetivos de aprendizagem:** Revisar `README.md`, `INICIO_RAPIDO.md`, o guia consolidado `docs/GUIA_INTEGRADO.md` e diretórios-chave (`docs/`, `notebooks/`, `flashcards/`) para mapear as competências (fisiopatologia, farmacologia, raciocínio clínico, etc.) priorizadas.
 - **Inventariar recursos existentes:** Relacionar PDFs, flashcards, notebooks e casos clínicos aos objetivos para identificar quais competências já dispõem de suporte.
 - **Analisar lacunas:** Elaborar uma matriz objetivos × recursos destacando onde faltam materiais, exercícios ou oportunidades de prática.
 
