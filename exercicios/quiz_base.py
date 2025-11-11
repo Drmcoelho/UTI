@@ -15,7 +15,16 @@ class MultipleChoiceQuestion:
     difficulty: str
     explanation: str
 
-    def __post_init__(self) -> None:  # type: ignore[override]
+    def __post_init__(self) -> None:
+        """Valida os campos da questão após inicialização.
+        
+        Note: __post_init__ is supported in frozen dataclasses and runs after
+        the instance is created but before it becomes truly immutable.
+        """
+        self._validate_fields()
+
+    def _validate_fields(self) -> None:
+        """Valida todos os campos obrigatórios da questão."""
         if len(self.options) != 5:
             raise ValueError("Cada questão deve conter exatamente 5 alternativas.")
         if not 0 <= self.correct_index < 5:
@@ -38,7 +47,16 @@ class VFStatement:
     is_true: bool
     rationale: str
 
-    def __post_init__(self) -> None:  # type: ignore[override]
+    def __post_init__(self) -> None:
+        """Valida os campos da afirmativa após inicialização.
+        
+        Note: __post_init__ is supported in frozen dataclasses and runs after
+        the instance is created but before it becomes truly immutable.
+        """
+        self._validate_fields()
+
+    def _validate_fields(self) -> None:
+        """Valida todos os campos obrigatórios da afirmativa."""
         if not self.statement.strip():
             raise ValueError("A afirmativa não pode ser vazia.")
         if not self.rationale.strip():
@@ -53,7 +71,16 @@ class EssayPrompt:
     subquestions: tuple[str, ...]
     guidance: str
 
-    def __post_init__(self) -> None:  # type: ignore[override]
+    def __post_init__(self) -> None:
+        """Valida os campos da questão dissertativa após inicialização.
+        
+        Note: __post_init__ is supported in frozen dataclasses and runs after
+        the instance is created but before it becomes truly immutable.
+        """
+        self._validate_fields()
+
+    def _validate_fields(self) -> None:
+        """Valida todos os campos obrigatórios da questão dissertativa."""
         if not self.stem.strip():
             raise ValueError("O enunciado da questão dissertativa não pode ser vazio.")
         if not self.subquestions:
