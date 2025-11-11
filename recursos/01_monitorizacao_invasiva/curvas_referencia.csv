@@ -1,0 +1,5 @@
+fase,descricao,pam_alvo_mmHg,observacao
+pre_ressuscitacao,Curva amortecida com PAM < 60,60,"Priorizar correção de hipovolemia ou disfunção do sistema"
+pos_ressuscitacao,Curva normalizada com PAM 65-70,68,"Ajuste fino de vasopressores baseado em PPV"
+hipertensao,Curva em pico com PAM > 85,85,"Reduzir vasopressores e avaliar analgesia"
+hipoperfusao,Curva de baixa amplitude com PPV > 13,65,"Considerar fluidos e ecocardiografia focada"

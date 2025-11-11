@@ -1,0 +1,6 @@
+indicador,valor_meta,comentario
+Calorias_diarias_kcal,25-30 kcal/kg,Ajustar por calorimetria indireta quando disponível
+Proteina_diaria_g,1.5-2.0 g/kg,Considerar catabolismo aumentado em queimados/septicemia
+Residuos_limite_ml,500,Acima disso investigar tolerância
+Glicemia_mg_dl,140-180,Meta glicêmica recomendada para pacientes críticos
+Balanço_nitrogenado,0 a -2 g/dia,Objetivo após fase inicial catabólica

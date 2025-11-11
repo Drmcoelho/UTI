@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 08
+
+Teste prévio antes da punção braquial\tTeste de Allen modificado para avaliar colateralidade.
+Posição do braço para acesso axilar\tAbdução 90° com rotação externa e suporte adequado.
+Vantagem do acesso axilar\tPreserva perfusão da mão e permite monitorização estável em suporte mecânico.
+Principais riscos da tunelização\tHematoma, tempo maior de procedimento e possível neuropraxia se túnel inadequado.
+Frequência de avaliação de perfusão distal nas primeiras 24h\tA cada 2 horas para detectar isquemia precoce.
+Sinal ultrassonográfico de pseudoaneurisma\tFluxo em "yin-yang" dentro de saco aneurismático e colo visível.
+Conduta inicial para pseudoaneurisma pequeno\tCompressão dirigida guiada por ultrassom e acompanhamento.
+Cuidado essencial com curativo compressivo\tAjustar pressão para manter perfusão e registrar avaliação neurológica do membro.
+Referência do zero hidrostático\tLinha do átrio direito independente do sítio arterial.
+Quando evitar punção braquial\tEm presença de fístula arteriovenosa ipsilateral ou colateralidade comprometida.

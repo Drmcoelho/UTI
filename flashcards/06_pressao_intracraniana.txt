@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 06
+
+Meta de PIC para pacientes com TCE grave\tManter < 22 mmHg conforme diretrizes Brain Trauma Foundation.
+Fórmula da pressão de perfusão cerebral (PPC)\tPPC = PAM − PIC.
+Significado de PRx > 0,3\tSugere perda de autorregulação cerebral; considerar ajustar metas de PAM e terapias de resgate.
+Quando hiperventilar agressivamente?\tApenas como medida temporária em herniação iminente, visando PaCO₂ 30-35 mmHg.
+Alvo de PbtO₂ em monitorização multimodal\t≥ 20 mmHg para reduzir risco de isquemia cerebral.
+Benefício de cateter intraventricular\tPermite drenagem terapêutica de líquor e recalibração do zero.
+Sinais clínicos de hipertensão intracraniana\tMidríase unilateral, descerebração, vômitos em jato, bradicardia com hipertensão (Cushing).
+Primeiros passos ao detectar PIC > 25 mmHg\tReavaliar posicionamento, cabeceira 30°, sedação profunda, analgesia, drenar líquor se disponível.
+Complicação associada a cateter parenquimatoso\tDrift de calibração que impede ajustes após implantação.
+Monitorização para terapia hipertônica\tSódio e osmolaridade sérica a cada 2-4 horas.

@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 07
+
+Indicação clássica de CVC\tAdministração de vasopressores, monitorização hemodinâmica e acesso difícil prolongado.
+Checklist pré-procedimento essencial\tIndicação, consentimento, exames recentes, equipe completa, materiais estéreis, ultrassom.
+Ângulo ideal da agulha na punção jugular guiada\tAproximadamente 45° em direção ao mamilo ipsilateral sob visão ultrassonográfica.
+Benefício do Trendelenburg 10-15°\tDistende veia e reduz risco de embolia gasosa.
+Intervalo de troca de curativo transparente\tA cada 7 dias ou se sujo/descolado.
+Conduta diante de punção arterial com dilatador\tNão remover; manter fio e acionar cirurgia vascular para reparo controlado.
+Sinal clínico precoce de trombose de CVC\tEdema unilateral de membro ou pescoço associado a dificuldade de infusão.
+Teste de refluxo com transdutor de pressão\tAjuda a confirmar posicionamento venoso observando onda venosa característica.
+Conduta em suspeita de infecção local com secreção purulenta\tRemover cateter, coletar ponta para cultura e iniciar antibiótico guiado.
+Documentos obrigatórios pós-procedimento\tNúmero de punções, lote dos materiais, confirmação radiológica, plano de manutenção.
