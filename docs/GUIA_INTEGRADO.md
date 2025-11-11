@@ -15,7 +15,7 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 - 📓 Notebook teórico-prático (`notebooks/NN_tema.ipynb`).
 - 🩺 Casos clínicos aplicados (`casos-clinicos/caso_NN_*.md`).
 - 🧠 Flashcards em formato Anki (`flashcards/NN_tema.txt`).
-- 🎯 Lista de exercícios com gabarito (`exercicios/NN_*.md`).
+- 🎯 Lista de exercícios com gabarito (`exercicios/NN_*.md`) — cada módulo possui 3 questões dissertativas, 8 MCQ interativas (5 alternativas) e 15 V/F com justificativa.
 - 🕹️ Simuladores interativos (`simuladores/NN_*.md` ou apps).
 - 🧪 Testes automatizados de consistência (`tests/test_modulo_NN.py`).
 - 📁 Recursos visuais e tabelas (`recursos/NN/`).
@@ -44,11 +44,8 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 |1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
 |2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
 |3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|✅|✅|✅|✅|✅|✅|
-|1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|⬜️|✅|✅|
-|2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|
-|3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|
-|4|Ecocardiografia à Beira do Leito (Point-of-Care)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
-|5|Oximetria e Capnografia|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|4|Ecocardiografia à Beira do Leito (Point-of-Care)|✅|✅|✅|✅|✅|✅|✅|✅|
+|5|Oximetria e Capnografia|✅|✅|✅|✅|✅|✅|✅|✅|
 |6|Monitorização da Pressão Intracraniana (PIC)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |7|Acesso Venoso Central|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |8|Acesso Arterial|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|

@@ -31,7 +31,7 @@
 
 ## 📝 Prática aplicada
 
-- **Exercícios:** Bloco 1 em [`exercicios/exercicios_blocos_1-3.md`](../exercicios/exercicios_blocos_1-3.md)
+- **Exercícios:** [`exercicios/modulo_01_monitorizacao_invasiva.md`](../exercicios/modulo_01_monitorizacao_invasiva.md)
 - **Caso clínico:** [`casos-clinicos/caso_01_monitorizacao_invasiva.md`](../casos-clinicos/caso_01_monitorizacao_invasiva.md)
 - **Simulador:** [`simuladores/modulo_01_pressao_invasiva.py`](../simuladores/modulo_01_pressao_invasiva.py)
 

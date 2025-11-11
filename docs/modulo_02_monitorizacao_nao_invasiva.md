@@ -31,7 +31,7 @@
 
 ## 📝 Prática aplicada
 
-- **Exercícios:** Bloco 2 em [`exercicios/exercicios_blocos_1-3.md`](../exercicios/exercicios_blocos_1-3.md)
+- **Exercícios:** [`exercicios/modulo_02_monitorizacao_nao_invasiva.md`](../exercicios/modulo_02_monitorizacao_nao_invasiva.md)
 - **Caso clínico:** [`casos-clinicos/caso_02_monitorizacao_nao_invasiva.md`](../casos-clinicos/caso_02_monitorizacao_nao_invasiva.md)
 - **Simulador:** [`simuladores/modulo_02_monitorizacao_nao_invasiva.py`](../simuladores/modulo_02_monitorizacao_nao_invasiva.py)
 

@@ -31,7 +31,7 @@
 
 ## 📝 Prática aplicada
 
-- **Exercícios:** Bloco 3 em [`exercicios/exercicios_blocos_1-3.md`](../exercicios/exercicios_blocos_1-3.md)
+- **Exercícios:** [`exercicios/modulo_03_cateter_arteria_pulmonar.md`](../exercicios/modulo_03_cateter_arteria_pulmonar.md)
 - **Caso clínico:** [`casos-clinicos/caso_03_cateter_arteria_pulmonar.md`](../casos-clinicos/caso_03_cateter_arteria_pulmonar.md)
 - **Simulador:** [`simuladores/modulo_03_cateter_arteria_pulmonar.py`](../simuladores/modulo_03_cateter_arteria_pulmonar.py)
 
