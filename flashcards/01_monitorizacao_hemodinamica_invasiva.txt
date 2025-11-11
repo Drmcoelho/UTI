@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 01
+
+Qual é a fórmula da pressão arterial média (PAM)?\tPAM = PAD + (PAS − PAD)/3
+Teste de Allen com retorno da coloração > 15 s indica o quê?\tContraindicação relativa à punção radial por ausência de circulação colateral adequada.
+Qual a altura anatômica correta para nivelar o transdutor arterial?\tLinha axilar média ao nível do 4º espaço intercostal.
+Cite duas causas de curva arterial amortecida.\tBolhas de ar no sistema pressurizado; dobras ou compressão do cateter.
+Qual variação de pressão de pulso sugere responsividade a fluidos?\tPPV > 13% em pacientes em ventilação controlada.
