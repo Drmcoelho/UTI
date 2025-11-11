@@ -43,7 +43,7 @@
 
 **Gabarito comentado:**
 1. C — PPV alta sugere responsividade a fluidos; teste dinâmico antes de escalar drogas.
-2. B — Primeiro abrir à atmosfera, zerar, nivelar e só então testar com flush.
+2. A — A sequência correta é nivelar, abrir para a atmosfera, zerar e só então testar com flush.
 3. B — Tubo longo/complacente aumenta overshoot; revisar extensão e conexões.
 4. C — Alvo inicial 65 mmHg; considerar 70 mmHg se hipoperfusão persiste.
 
