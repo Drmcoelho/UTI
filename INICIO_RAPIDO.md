@@ -89,8 +89,9 @@ Seu navegador abrirá automaticamente em `http://localhost:8888`
 
 1. No navegador, clique em `notebooks/`
 2. Escolha um notebook:
-   - `01_monitorizacao_hemodinamica_invasiva.ipynb` (recomendado para começar)
-   - `20_sdra.ipynb` (tópico respiratório)
+   - `01_monitorizacao_hemodinamica_invasiva.ipynb` (ponto de partida obrigatório)
+   - `02_monitorizacao_hemodinamica_nao_invasiva.ipynb` (consolida trending não invasivo)
+   - `03_cateter_arteria_pulmonar.ipynb` (interpretação avançada de Swan-Ganz)
 3. Execute as células com `Shift + Enter`
 
 ## 🎯 Primeiros Passos no Aprendizado
@@ -108,13 +109,13 @@ Seu navegador abrirá automaticamente em `http://localhost:8888`
 - [ ] Leia 1 caso clínico
 
 ### Semana 2: Aprofundamento
-- [ ] Complete notebook 20 (SDRA)
+- [ ] Complete notebook 02 (Monitorização não invasiva)
 - [ ] Pratique com simuladores
 - [ ] Resolva exercícios em `exercicios/`
 - [ ] Revise flashcards diariamente
 
 ### Mês 1: Consolidação
-- [ ] Complete 4-6 notebooks
+- [ ] Complete os módulos 01-03 e avance para os próximos temas
 - [ ] Revise conceitos com flashcards
 - [ ] Resolva todos os exercícios disponíveis
 - [ ] Contribua com o projeto (opcional)

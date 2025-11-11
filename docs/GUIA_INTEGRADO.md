@@ -41,6 +41,9 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 
 |Módulo|Tema|Notebook|Casos|Flashcards|Exercícios|Simuladores|Testes|Recursos|Scriptable JS|
 |---|---|---|---|---|---|---|---|---|---|
+|1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
+|2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|✅|✅|✅|✅|✅|✅|
+|3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|✅|✅|✅|✅|✅|✅|
 |1|Monitorização Hemodinâmica Invasiva|✅|✅|✅|✅|✅|⬜️|✅|✅|
 |2|Monitorização Hemodinâmica Não-Invasiva|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|
 |3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|⬜️|✅|⬜️|⬜️|✅|⬜️|

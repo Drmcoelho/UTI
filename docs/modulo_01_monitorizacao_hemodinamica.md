@@ -1,68 +1,50 @@
 # Módulo 01 — Monitorização Hemodinâmica Invasiva
 
-> **Objetivo geral:** capacitar o profissional a selecionar, instalar e interpretar dispositivos de monitorização hemodinâmica em pacientes críticos com instabilidade circulatória.
+> **Objetivo geral:** capacitar o time a selecionar, implantar e interpretar monitorização arterial invasiva em pacientes críticos.
 
-## 🔍 Visão geral do módulo
+## 🔍 Visão geral
 
-- **Carga horária sugerida:** 4h de estudo teórico + 2h de prática supervisionada
-- **Pré-requisitos:** fundamentos de fisiologia cardiovascular e interpretação de gasometria arterial
+- **Carga sugerida:** 4h teóricas + 2h de simulação prática
+- **Pré-requisitos:** fisiologia cardiovascular, manuseio de material estéril
 - **Competências-chave:**
-  - Indicar monitorização invasiva com base em critérios clínicos
-  - Selecionar o sítio de punção ideal e preparar o campo com segurança
-  - Interpretar curvas e números obtidos do sistema arterial
-  - Correlacionar parâmetros com metas terapêuticas em choque
+  - Indicar monitorização invasiva com critérios clínicos claros
+  - Preparar o kit pressurizado e nivelar o transdutor corretamente
+  - Interpretar curvas arteriais e parâmetros derivados (PAM, PPV)
+  - Integrar achados à condução de choque distributivo ou cardiogênico
 
-## 📘 Trilhas de teoria (docs/)
+## 📘 Trilhas teóricas
 
-1. **Fundamentos da pressão arterial invasiva**
-   - Componentes do transdutor e técnica de nivelamento/zero
-   - Determinantes fisiológicos da pressão arterial média
-   - Artefatos frequentes e como corrigi-los
-2. **Tomada de decisão clínica**
-   - Indicações absolutas e relativas
-   - Contraindicações por sítio (radial, femoral, braquial)
-   - Fluxo de decisão: quando migrar para monitorização avançada
-3. **Interpretação avançada**
-   - Relação pressão x perfusão tecidual
-   - Integração com lactato sérico e débito urinário
-   - Alarmes críticos e condutas imediatas
+1. **Fundamentos técnicos**
+   - Componentes do sistema pressurizado e prevenção de bolhas
+   - Nivelamento, zero atmosférico e alarmes
+   - Detecção e correção de artefatos (curva amortecida, overshoot)
+2. **Indicadores clínicos**
+   - Critérios para escolha do sítio (radial vs femoral)
+   - Checklist pré-procedimento e protocolos de assepsia
+   - Metas personalizadas de PAM por fenótipo de choque
+3. **Integração terapêutica**
+   - Uso da PPV e elevação passiva de pernas
+  - Ajustes de vasopressor guiados por curva arterial
+   - Documentação estruturada e rounds multiprofissionais
 
-> 📄 **Material-base:** o conteúdo está detalhado neste documento e complementado pelo notebook interativo `notebooks/01_monitorizacao_hemodinamica_invasiva.ipynb`.
+> 📄 **Material-base:** revisar este módulo e executar o notebook [`01_monitorizacao_hemodinamica_invasiva.ipynb`](../notebooks/01_monitorizacao_hemodinamica_invasiva.ipynb).
 
-## 📝 Prática aplicada (exercicios/)
+## 📝 Prática aplicada
 
-- **Bloco correspondente:** "📝 BLOCO 1 — Monitorização Hemodinâmica" em [`exercicios/exercicios_blocos_1-3.md`](../exercicios/exercicios_blocos_1-3.md)
-- **Foco dos exercícios:**
-  - Cálculo de PAM e interpretação de curvas
-  - Identificação de contraindicações absolutas
-  - Condutas diante de complicações pós-punção
-- **Sugestão de uso:** resolver as questões antes de revisar o gabarito e registrar justificativas pessoais.
-
-## 🩺 Casos clínicos (casos-clinicos/)
-
-- **Caso principal:** [`casos-clinicos/caso_02_monitorizacao_invasiva.md`](../casos-clinicos/caso_02_monitorizacao_invasiva.md)
-- **Objetivos do caso:**
-  - Tomar decisões rápidas em paciente com choque refratário
-  - Escolher estratégia de monitorização conforme risco vascular
-  - Elaborar plano de reavaliação e metas de perfusão
-
-## 💻 Notebook recomendado (notebooks/)
-
-- `01_monitorizacao_hemodinamica_invasiva.ipynb`
-  - Checkpoints de cálculo de PAM e interpretação de curvas
-  - Exercícios guiados com `assert` para validar respostas
+- **Exercícios:** Bloco 1 em [`exercicios/exercicios_blocos_1-3.md`](../exercicios/exercicios_blocos_1-3.md)
+- **Caso clínico:** [`casos-clinicos/caso_01_monitorizacao_invasiva.md`](../casos-clinicos/caso_01_monitorizacao_invasiva.md)
+- **Simulador:** [`simuladores/modulo_01_pressao_invasiva.py`](../simuladores/modulo_01_pressao_invasiva.py)
 
 ## 🧠 Revisão ativa
 
-- **Flashcards:** seção "Módulo 01 — Monitorização" em [`flashcards/flashcards_modulos_integrados.md`](../flashcards/flashcards_modulos_integrados.md)
-- **Checklist rápido:**
-  - [ ] Sei calcular e interpretar PAM
-  - [ ] Sei indicar o melhor sítio de punção em diferentes contextos
-  - [ ] Sei quais complicações vigiar e como agir em cada uma
+- **Flashcards:** [`flashcards/01_monitorizacao_hemodinamica_invasiva.txt`](../flashcards/01_monitorizacao_hemodinamica_invasiva.txt)
+- **Recursos de bolso:** [`recursos/01_monitorizacao_invasiva/`](../recursos/01_monitorizacao_invasiva/)
+- **Script Scriptable:** [`scriptable/modulo_01_monitorizacao.js`](../scriptable/modulo_01_monitorizacao.js)
 
 ## ✅ Critérios de conclusão
 
-- Realizar leitura crítica deste módulo teórico
-- Executar o notebook até o checkpoint final
-- Acertar ≥ 70% das questões do bloco de exercícios
-- Discutir o caso clínico e registrar condutas prioritárias
+- Ler integralmente o módulo e registrar dúvidas
+- Executar o notebook até resolver o cenário final
+- Acertar ≥ 70% do bloco de exercícios
+- Discutir o caso clínico com checklist preenchido
+- Rodar o simulador e anotar ajustes de PAM em dois cenários diferentes

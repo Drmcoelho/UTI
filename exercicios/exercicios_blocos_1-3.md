@@ -1,368 +1,128 @@
-# Exercícios - Temas Variados de UTI
+# Exercícios — Monitorização Hemodinâmica (Módulos 01 a 03)
 
-## 🎯 Instruções
+## 🎯 Como usar
 
-- Responda as questões sem consultar material
-- Anote suas dúvidas
-- Revise os conceitos que errou
-- Gabarito ao final de cada seção
-
-> 🔗 **Mapeamento curricular:** este caderno integra os [módulos teóricos](../docs/mapa_curricular_modulos.md). Consulte o documento do módulo correspondente antes de iniciar cada bloco.
+1. Revise o documento teórico do módulo correspondente em `docs/`.
+2. Execute o notebook indicado e explore as células interativas.
+3. Resolva o bloco abaixo sem consultar material.
+4. Compare com o gabarito comentado ao final de cada bloco.
 
 ---
 
-## 📝 BLOCO 1: Monitorização Hemodinâmica
+## 📓 Bloco 1 — Monitorização Hemodinâmica Invasiva (Módulo 01)
 
-> Estude o [Módulo 01](../docs/modulo_01_monitorizacao_hemodinamica.md) e discuta o [caso clínico 02](../casos-clinicos/caso_02_monitorizacao_invasiva.md) antes de corrigir o gabarito.
-> 💡 **Dica prática:** abra o [Notebook 01](../notebooks/01_monitorizacao_hemodinamica_invasiva.ipynb) e execute o simulador de curva arterial antes de responder às questões.
+> Consulte: [`docs/modulo_01_monitorizacao_hemodinamica.md`](../docs/modulo_01_monitorizacao_hemodinamica.md) e o [caso clínico 01](../casos-clinicos/caso_01_monitorizacao_invasiva.md).
 
-### Questão 1
-Paciente de 70 anos, com choque séptico, está em uso de noradrenalina 0.3 mcg/kg/min. A pressão arterial invasiva mostra: 95/60 mmHg. Qual a PAM deste paciente?
+1. Paciente em choque séptico apresenta curva arterial 110/60 mmHg com PPV 16% sob ventilação controlada. Qual estratégia inicial é mais adequada?
+   - A) Iniciar vasopressina imediata
+   - B) Aumentar a dose de noradrenalina
+   - C) Realizar teste de elevação passiva de pernas e, se responsivo, administrar 250 mL de cristaloide
+   - D) Reduzir PEEP para diminuir a variação da pressão de pulso
+   - E) Suspender analgesia para aumentar o tônus simpático
 
-A) 68 mmHg  
-B) 72 mmHg  
-C) 77 mmHg  
-D) 82 mmHg  
-E) 85 mmHg
+2. Qual sequência correta para zero e calibração do transdutor arterial?
+   - A) Nivelar transdutor → abrir à atmosfera → zero → flush rápido
+   - B) Abrir à atmosfera → zero → nivelar transdutor → flush rápido
+   - C) Zero → nivelar → flush rápido → abrir à atmosfera
+   - D) Flush rápido → zero → nivelar → abrir à atmosfera
+   - E) Nivelar → flush rápido → zero → fechar à atmosfera
 
-### Questão 2
-Qual das seguintes é uma contraindicação ABSOLUTA para punção de artéria radial?
+3. Em cateter radial, qual complicação é mais frequentemente associada à curva sobremortecida (overshoot)?
+   - A) Vazamento no sistema pressurizado
+   - B) Tubo muito longo e complacente
+   - C) Formação de trombo na ponta do cateter
+   - D) Desnivelamento do transdutor
+   - E) Coagulopatia do paciente
 
-A) Teste de Allen negativo  
-B) Uso de anticoagulação plena  
-C) Infecção no local de punção  
-D) Plaquetas de 50.000/mm³  
-E) Doença de Raynaud
+4. A partir de que valor de PAM é recomendado escalonar dose de vasopressor para 70 mmHg em choque séptico com sinais de hipoperfusão?
+   - A) 55 mmHg
+   - B) 60 mmHg
+   - C) 65 mmHg
+   - D) 70 mmHg
+   - E) 75 mmHg
 
-### Questão 3
-Em relação ao Teste de Allen, é CORRETO afirmar:
-
-A) Avalia a circulação colateral da artéria radial pela artéria braquial  
-B) É considerado positivo quando o retorno da coloração ocorre em menos de 7 segundos  
-C) É considerado negativo quando o retorno da coloração demora mais de 15 segundos  
-D) Deve ser realizado após a punção arterial para avaliar isquemia  
-E) É específico para punção femoral
-
-### Questão 4
-Um paciente com PAI femoral apresenta ausência de pulso pedioso e palidez no membro inferior. A conduta mais apropriada é:
-
-A) Aguardar resolução espontânea  
-B) Remover cateter imediatamente sem avaliação  
-C) Iniciar heparina venosa antes de avaliar  
-D) Solicitar ecodoppler urgente e considerar remoção do cateter  
-E) Aumentar dose de vasopressor
+**Gabarito comentado:**
+1. C — PPV alta sugere responsividade a fluidos; teste dinâmico antes de escalar drogas.
+2. A — A sequência correta é nivelar, abrir para a atmosfera, zerar e só então testar com flush.
+3. B — Tubo longo/complacente aumenta overshoot; revisar extensão e conexões.
+4. C — Alvo inicial 65 mmHg; considerar 70 mmHg se hipoperfusão persiste.
 
 ---
 
-## 🫁 BLOCO 2: SDRA e Ventilação Mecânica
+## 🩺 Bloco 2 — Monitorização Hemodinâmica Não Invasiva (Módulo 02)
 
-> Reforce a teoria no [Módulo 02](../docs/modulo_02_ventilacao_sdra.md) e revise o [caso clínico 03](../casos-clinicos/caso_03_sdra_refrataria.md) para contextualizar as respostas.
-> 💡 **Dica prática:** execute o [Notebook 20](../notebooks/20_sdra.ipynb) para revisar as tabelas de PEEP/FiO2 antes de corrigir o gabarito.
+> Consulte: [`docs/modulo_02_monitorizacao_nao_invasiva.md`](../docs/modulo_02_monitorizacao_nao_invasiva.md) e o [caso clínico 02](../casos-clinicos/caso_02_monitorizacao_nao_invasiva.md).
 
-### Questão 5
-Paciente com pneumonia bilateral grave apresenta: PaO2 80 mmHg com FiO2 80%. Qual a relação PaO2/FiO2 e a classificação?
+5. Para validar equipamento oscilométrico em UTI, qual diferença máxima aceitável entre três leituras consecutivas da PAM?
+   - A) 2 mmHg
+   - B) 5 mmHg
+   - C) 8 mmHg
+   - D) 10 mmHg
+   - E) 15 mmHg
 
-A) 100 mmHg - SDRA grave  
-B) 125 mmHg - SDRA moderada  
-C) 150 mmHg - SDRA moderada  
-D) 200 mmHg - SDRA leve  
-E) 250 mmHg - Sem SDRA
+6. Índice de perfusão (PI) persistentemente < 1% sugere:
+   - A) Perfusão periférica adequada
+   - B) Hipoperfusão periférica grave
+   - C) Problema de sensor que deve ser descartado
+   - D) Necessidade imediata de cateter de Swan-Ganz
+   - E) Sobredose de sedação
 
-### Questão 6
-Paciente homem, 175 cm de altura, em ventilação mecânica por SDRA. Qual o volume corrente alvo segundo protocolo ARDSNet?
+7. Ao integrar ecocardiografia point-of-care, qual combinação permite calcular o débito cardíaco não invasivo?
+   - A) Diâmetro do VE na diástole + fração de ejeção
+   - B) Área do TSV × VTI do TSV × frequência cardíaca
+   - C) Área do átrio esquerdo × pressão venosa central
+   - D) VTI do TSV × saturação venosa central
+   - E) Pressão arterial × VTI
 
-A) 350 mL  
-B) 400 mL  
-C) 420 mL  
-D) 480 mL  
-E) 525 mL
+8. Qual situação exige conversão para monitorização invasiva imediata?
+   - A) Divergência de 4 mmHg entre leituras consecutivas
+   - B) Queda transitória da PAM durante troca de posição
+   - C) Variação oscilométrica > 10 mmHg sem correlação clínica
+   - D) Índice de perfusão 2,5%
+   - E) Necessidade de medir gases arteriais seriados
 
-### Questão 7
-Em relação à ventilação protetora na SDRA, qual meta é INCORRETA?
-
-A) Volume corrente: 6 mL/kg de peso predito  
-B) Pressão de platô: < 30 cmH2O  
-C) Driving pressure: < 15 cmH2O  
-D) PEEP: sempre fixar em 5 cmH2O  
-E) pH: aceitar até 7.20 (hipercapnia permissiva)
-
-### Questão 8
-A posição prona está indicada em qual situação?
-
-A) SDRA leve (PaO2/FiO2 250 mmHg)  
-B) SDRA moderada estável  
-C) SDRA grave (PaO2/FiO2 < 150 mmHg) nas primeiras 48h  
-D) Qualquer grau de SDRA após 7 dias  
-E) Apenas em ECMO
-
-### Questão 9
-Paciente em VM com: Pplat 28 cmH2O, PEEP 12 cmH2O. Qual a driving pressure?
-
-A) 8 cmH2O  
-B) 12 cmH2O  
-C) 16 cmH2O  
-D) 28 cmH2O  
-E) 40 cmH2O
-
-### Questão 10
-Qual é a contraindicação ABSOLUTA para posição prona?
-
-A) IMC > 40  
-B) Gestação no 1º trimestre  
-C) Hipertensão intracraniana não controlada  
-D) Pneumotórax drenado  
-E) Obesidade mórbida
+**Gabarito comentado:**
+5. B — Diferenças maiores que 5 mmHg devem acionar rechecagem ou calibração.
+6. B — Valores < 1% indicam hipoperfusão importante.
+7. B — Área do TSV e VTI permitem estimar volume sistólico; multiplicar pela FC fornece DC.
+8. C — Divergência > 10 mmHg ou tendência incoerente requer validação invasiva.
 
 ---
 
-## 💉 BLOCO 3: Choque Séptico
-
-> Revise o [Módulo 03](../docs/modulo_03_choque_septico.md) e o [caso clínico 01](../casos-clinicos/caso_01_choque_septico.md) para consolidar o raciocínio antes de verificar o gabarito.
-> 💡 **Dica prática:** reproduza o cenário integrado do [Notebook 21](../notebooks/21_casos_integrados_choque_sdra.ipynb) para testar condutas antes de checar as respostas.
-
-### Questão 11
-Segundo o Sepsis-3, o choque séptico é definido por:
-
-A) PAM < 65 mmHg e lactato > 2 mmol/L antes de ressuscitação  
-B) Necessidade de vasopressor para PAM ≥ 65 mmHg E lactato > 2 mmol/L após ressuscitação  
-C) Presença de 2 critérios de SIRS e hipotensão  
-D) SOFA score ≥ 2 e presença de infecção  
-E) qSOFA ≥ 2 e lactato elevado
-
-### Questão 12
-No "pacote de 1 hora" da sepse, qual NÃO está incluído?
-
-A) Coleta de culturas antes de antibiótico  
-B) Antibioticoterapia de amplo espectro  
-C) Corticoide em dose de estresse  
-D) Ressuscitação volêmica de 30 mL/kg se indicado  
-E) Vasopressor se hipotensão refratária
-
-### Questão 13
-Qual o vasopressor de primeira linha no choque séptico?
-
-A) Dopamina  
-B) Dobutamina  
-C) Noradrenalina  
-D) Adrenalina  
-E) Vasopressina
-
-### Questão 14
-Quando adicionar vasopressina no choque séptico?
-
-A) Como primeira droga vasoativa  
-B) Quando noradrenalina > 0.25-0.5 mcg/kg/min  
-C) Apenas em bradicardia  
-D) Sempre junto com a noradrenalina desde o início  
-E) Nunca, não tem evidência
-
-### Questão 15
-A hidrocortisona está indicada no choque séptico quando:
-
-A) Qualquer dose de vasopressor  
-B) Choque refratário (noradrenalina > 0.25 mcg/kg/min)  
-C) Presença de febre  
-D) Leucócitos > 20.000/mm³  
-E) Apenas em insuficiência adrenal documentada
-
----
-
-## 🧪 BLOCO 4: Casos Clínicos Integrados
-
-### Caso 1 - Questões 16-18
-
-Paciente de 45 anos, sexo feminino, 165 cm, 70 kg, admitida com pneumonia bilateral grave. 
-
-**Dados iniciais:**
-- PA: 78/45 mmHg
-- FC: 130 bpm
-- FR: 35 irpm
-- SatO2: 85% com O2 15L
-- Glasgow: 13
-- Lactato: 5.2 mmol/L
-
-**Gasometria (FiO2 100% em máscara):**
-- pH: 7.28
-- PaCO2: 35 mmHg
-- PaO2: 55 mmHg
-- HCO3: 16 mEq/L
-
-### Questão 16
-Qual a classificação deste paciente?
-
-A) Sepse sem choque  
-B) Choque séptico com SDRA leve  
-C) Choque séptico com SDRA grave  
-D) Choque séptico sem SDRA  
-E) Pneumonia grave sem sepse
-
-### Questão 17
-A paciente foi intubada. Qual o volume corrente alvo para ventilação protetora?
-
-A) 280 mL  
-B) 320 mL  
-C) 350 mL  
-D) 420 mL  
-E) 480 mL
-
-### Questão 18
-Após 2 horas de ressuscitação com 2L de cristaloide e noradrenalina 0.4 mcg/kg/min, PAM = 62 mmHg, lactato = 5.8 mmol/L. Qual a próxima ação?
-
-A) Aumentar apenas a noradrenalina  
-B) Adicionar vasopressina e considerar hidrocortisona  
-C) Aguardar mais tempo para resposta  
-D) Suspender noradrenalina e usar dopamina  
-E) Iniciar ECMO imediatamente
-
----
-
-### Caso 2 - Questões 19-20
-
-Paciente com SDRA grave em VM: VC 420 mL, FR 24, PEEP 14, FiO2 80%.
-
-**Gasometria:**
-- PaO2: 62 mmHg
-- PaCO2: 58 mmHg
-- pH: 7.22
-
-**Pressões:**
-- Pplat: 32 cmH2O
-- Driving pressure: 18 cmH2O
-
-### Questão 19
-Qual a melhor conduta quanto aos parâmetros ventilatórios?
-
-A) Aumentar volume corrente para melhorar oxigenação  
-B) Reduzir volume corrente apesar da hipercapnia  
-C) Aumentar FR para 35 irpm  
-D) Reduzir PEEP para 8 cmH2O  
-E) Manter parâmetros atuais pois pH > 7.20
-
-### Questão 20
-Considerando PaO2/FiO2 < 80 mmHg persistente, qual terapia adjuvante tem maior evidência de redução de mortalidade?
-
-A) Surfactante exógeno  
-B) Óxido nítrico inalatório  
-C) Posição prona por 16-18h/dia  
-D) Corticoide em altas doses  
-E) ECMO como primeira medida
-
----
-
-## 📊 GABARITO E JUSTIFICATIVAS
-
-### BLOCO 1: Monitorização
-
-**1. Resposta B - 72 mmHg**
-- PAM = PAD + (PAS - PAD)/3
-- PAM = 60 + (95 - 60)/3 = 60 + 11.67 ≈ 72 mmHg
-
-**2. Resposta C - Infecção no local**
-- Única contraindicação absoluta
-- As demais são relativas
-
-**3. Resposta B - Positivo < 7 segundos**
-- Teste de Allen positivo = circulação colateral adequada
-- Retorno da coloração < 7 segundos após liberar artéria ulnar
-
-**4. Resposta D - Ecodoppler + considerar remoção**
-- Sinais de isquemia exigem avaliação urgente
-- Não remover sem avaliar, mas preparar para remoção
-
-### BLOCO 2: SDRA
-
-**5. Resposta A - 100 mmHg, SDRA grave**
-- PaO2/FiO2 = 80/0.8 = 100 mmHg
-- < 100 mmHg = SDRA grave
-
-**6. Resposta C - 420 mL**
-- PBW = 50 + 0.91 × (175 - 152.4) = 70.5 kg
-- VC = 70.5 × 6 = 423 mL ≈ 420 mL
-
-**7. Resposta D - PEEP fixo em 5**
-- PEEP deve ser titulado conforme FiO2 (tabela ARDSNet)
-- Não é fixo em 5 cmH2O
-
-**8. Resposta C - SDRA grave < 48h**
-- Indicação: PaO2/FiO2 < 150 mmHg
-- Preferencialmente nas primeiras 48h
-- Duração: 16-18h/dia
-
-**9. Resposta C - 16 cmH2O**
-- Driving Pressure = Pplat - PEEP
-- ΔP = 28 - 12 = 16 cmH2O
-
-**10. Resposta C - HIC não controlada**
-- Contraindicação absoluta por risco de herniação
-- As demais são relativas
-
-### BLOCO 3: Choque
-
-**11. Resposta B - Vasopressor + lactato > 2 após ressuscitação**
-- Definição do Sepsis-3
-- APÓS ressuscitação volêmica adequada
-
-**12. Resposta C - Corticoide**
-- Corticoide NÃO está no pacote de 1h
-- Indicado apenas em choque refratário
-
-**13. Resposta C - Noradrenalina**
-- 1ª escolha baseada em evidências
-- Aumenta PAM com mínimo efeito cronótropo
-
-**14. Resposta B - Noradrenalina > 0.25-0.5**
-- Como 2ª droga em choque refratário
-- Efeito poupador de noradrenalina
-
-**15. Resposta B - Choque refratário**
-- Hidrocortisona 200 mg/dia
-- Quando noradrenalina > 0.25 mcg/kg/min
-
-### BLOCO 4: Casos Integrados
-
-**16. Resposta C - Choque séptico + SDRA grave**
-- Choque: PAM baixa + lactato 5.2
-- PaO2/FiO2 = 55/1.0 = 55 mmHg (SDRA grave)
-
-**17. Resposta C - 350 mL**
-- PBW mulher = 45.5 + 0.91 × (165 - 152.4) = 57 kg
-- VC = 57 × 6 = 342 mL ≈ 350 mL
-
-**18. Resposta B - Vasopressina + hidrocortisona**
-- Dose alta de noradrenalina (0.4)
-- Lactato em ascensão = choque refratário
-- Adicionar 2ª droga + corticoide
-
-**19. Resposta B - Reduzir VC**
-- Pplat > 30 e ΔP > 15 (lesivo)
-- Proteção pulmonar > correção de hipercapnia
-- pH 7.22 é aceitável (> 7.20)
-
-**20. Resposta C - Posição prona**
-- Única terapia com redução de mortalidade comprovada
-- PaO2/FiO2 < 80 = refratário
-- Prona antes de ECMO
-
----
-
-## 📈 Pontuação
-
-- **18-20 acertos:** Excelente! 🌟
-- **15-17 acertos:** Muito bom! 👏
-- **12-14 acertos:** Bom, continue estudando! 📚
-- **9-11 acertos:** Precisa revisar conceitos 📖
-- **< 9 acertos:** Revise o material antes de nova tentativa 🔄
-
----
-
-## 🎯 Tópicos para Revisar
-
-Se errou questões de:
-- **Bloco 1:** Revise notebook 01 (Monitorização Hemodinâmica)
-- **Bloco 2:** Revise notebook 20 (SDRA) e 16-19 (VM)
-- **Bloco 3:** Revise conteúdo de Choque Séptico (tema 32)
-- **Bloco 4:** Revise integração de conceitos com casos clínicos
-
----
-
-**Próxima etapa:** Refaça os exercícios em 1 semana para consolidar conhecimento!
+## ❤️ Bloco 3 — Cateter de Artéria Pulmonar (Módulo 03)
+
+> Consulte: [`docs/modulo_03_cateter_arteria_pulmonar.md`](../docs/modulo_03_cateter_arteria_pulmonar.md) e o [caso clínico 03](../casos-clinicos/caso_03_cateter_arteria_pulmonar.md).
+
+9. Qual é o objetivo primário do cateter de artéria pulmonar em choque cardiogênico?
+   - A) Medir pressão arterial não invasiva
+   - B) Avaliar apenas a pressão de átrio direito
+   - C) Monitorar pressões de enchimento e débito cardíaco para guiar suporte avançado
+   - D) Administrar altas doses de vasopressores
+   - E) Evitar necessidade de ecocardiografia
+
+10. Pressão capilar pulmonar (PCP) de 26 mmHg em paciente dispneico indica:
+    - A) Pré-carga baixa
+    - B) Congestão pulmonar importante
+    - C) Choque distributivo
+    - D) Tamponamento cardíaco
+    - E) Erro de mensuração, sempre repetir
+
+11. Utilize os dados: PAM 70 mmHg, PVC 12 mmHg, débito cardíaco 4 L/min. Qual a resistência vascular sistêmica (RVS)?
+    - A) 160 dyn·s·cm⁻⁵
+    - B) 320 dyn·s·cm⁻⁵
+    - C) 580 dyn·s·cm⁻⁵
+    - D) 1.040 dyn·s·cm⁻⁵
+    - E) 1.160 dyn·s·cm⁻⁵
+
+12. Critério apropriado para retirada do CAP inclui:
+    - A) Necessidade de vasopressores em alta dose
+    - B) Índice cardíaco persistente < 2 L/min/m²
+    - C) PAM estável ≥ 65 mmHg, SvO₂ ≥ 65% e IC ≥ 2,2 L/min/m²
+    - D) Persistência de congestão pulmonar
+    - E) Instabilidade elétrica (arrítmias recorrentes)
+
+**Gabarito comentado:**
+9. C — O CAP permite diferenciar fenótipo hemodinâmico e ajustar suporte avançado.
+10. B — PCP > 18 mmHg sugere congestão; reavaliar ventilação e diuréticos.
+11. E — RVS = 80 × (70 − 12) / 4 = 1.160 dyn·s·cm⁻⁵.
+12. C — Retirada segura depende de estabilidade hemodinâmica sustentada.
