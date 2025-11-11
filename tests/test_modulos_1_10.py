@@ -82,6 +82,11 @@ from exercicios import (
     modulo_10_nutricao_enteral as quiz10,
 )
 
+# Expected quiz counts per module
+EXPECTED_ESSAY_COUNT = 3
+EXPECTED_MCQ_COUNT = 8
+EXPECTED_VF_COUNT = 15
+
 
 def test_calcular_pam_and_classificacao():
     pam = calcular_pam(96, 54)
@@ -207,6 +212,6 @@ def test_nutricao_enteral_plan():
 def test_quiz_counts_are_consistent():
     for module in (quiz01, quiz02, quiz03, quiz04, quiz05, quiz06, quiz07, quiz08, quiz09, quiz10):
         counts = module.resumo_banco()
-        assert counts["dissertativas"] == 3
-        assert counts["mcq"] == 8
-        assert counts["vf"] == 15
+        assert counts["dissertativas"] == EXPECTED_ESSAY_COUNT
+        assert counts["mcq"] == EXPECTED_MCQ_COUNT
+        assert counts["vf"] == EXPECTED_VF_COUNT
