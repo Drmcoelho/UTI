@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 10
+
+Meta calórica típica para paciente crítico\t25-30 kcal/kg/dia ajustando conforme calorimetria e metas clínicas.
+Meta proteica em queimados graves\t1,5-2,0 g/kg/dia.
+Limiar de resíduo gástrico para intervenção\t> 500 mL de forma repetida.
+Suplementos recomendados em grandes queimados\tGlutamina, vitamina C, zinco e selênio.
+Alvo glicêmico recomendado\t140-180 mg/dL com insulinoterapia IV se necessário.
+Posicionamento para reduzir aspiração\tCabeceira elevada 30-45° continuamente.
+Indicação de sonda pós-pilórica\tResíduos persistentes, alto risco de aspiração ou ventilação prolongada.
+Indicador de adequação proteica\tBalanço nitrogenado próximo de zero após ajustes.
+Importância da documentação de interrupções\tPermite rastreabilidade, auditoria e redução de perdas calóricas.
+Intervenção farmacológica para intolerância\tMetoclopramida ou eritromicina como pró-cinéticos.

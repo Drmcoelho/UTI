@@ -21,6 +21,21 @@ recursos/
 ├── 05_oximetria_capnografia/
 │   ├── alarmes_padrao.csv
 │   └── guia_interpretacao_capnografia.md
+├── 06_pressao_intracraniana/
+│   ├── bundle_pic_checklist.md
+│   └── metas_ppc.csv
+├── 07_acesso_venoso_central/
+│   ├── checklist_cvc.md
+│   └── indicadores_cvc.csv
+├── 08_acesso_arterial/
+│   ├── algoritmo_acesso_arterial.md
+│   └── perfusao_monitorizacao.csv
+├── 09_balanco_hidrico/
+│   ├── plano_balanco_template.md
+│   └── ultrassom_parametros.csv
+├── 10_nutricao_enteral/
+│   ├── protocolo_nutricao_enteral.md
+│   └── metas_nutricionais.csv
 └── README.md
 ```
 

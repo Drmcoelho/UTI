@@ -46,11 +46,11 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 |3|Cateter de Artéria Pulmonar (Swan-Ganz)|✅|✅|✅|✅|✅|✅|✅|✅|
 |4|Ecocardiografia à Beira do Leito (Point-of-Care)|✅|✅|✅|✅|✅|✅|✅|✅|
 |5|Oximetria e Capnografia|✅|✅|✅|✅|✅|✅|✅|✅|
-|6|Monitorização da Pressão Intracraniana (PIC)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
-|7|Acesso Venoso Central|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
-|8|Acesso Arterial|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
-|9|Balanço Hídrico e Controle de Volemia|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
-|10|Nutrição Enteral em Pacientes Críticos|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|6|Monitorização da Pressão Intracraniana (PIC)|✅|✅|✅|✅|✅|✅|✅|✅|
+|7|Acesso Venoso Central|✅|✅|✅|✅|✅|✅|✅|✅|
+|8|Acesso Arterial|✅|✅|✅|✅|✅|✅|✅|✅|
+|9|Balanço Hídrico e Controle de Volemia|✅|✅|✅|✅|✅|✅|✅|✅|
+|10|Nutrição Enteral em Pacientes Críticos|✅|✅|✅|✅|✅|✅|✅|✅|
 |11|Nutrição Parenteral em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |12|Controle Glicêmico em Pacientes Críticos|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |13|Sedação e Analgesia em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
