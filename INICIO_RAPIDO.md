@@ -302,7 +302,7 @@ Se o login estiver sendo usado em um site externo associado ao projeto (por exem
 ## 📚 Recursos Adicionais
 
 ### Documentação Completa
-- `docs/GUIA_DE_USO.md` - Guia detalhado
+- `docs/GUIA_INTEGRADO.md` - Guia detalhado
 - `docs/TEMPLATE_NOTEBOOK.md` - Para contribuidores
 - `CONTRIBUTING.md` - Como contribuir
 
