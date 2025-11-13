@@ -1,0 +1,6 @@
+variavel,limiar,interpretação
+IVC_diametro_cm,>2.1,Consistente com pressão venosa elevada
+IVC_colab_percent,<20%,Sugere congestão significativa
+VEXUS_grau,>=3,Descompensação venosa crítica
+Fluxo_portal,Reverso/Pulsátil elevado,Congestão hepática severa
+Fluxo_intrarrenal,Monofásico,Comprometimento venoso renal

@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 04
+
+Qual janela inicial do protocolo RUSH avalia contratilidade global e derrame pericárdico?	Paraesternal longo (vista eixo longo) com foco no ventrículo esquerdo.
+Qual valor de TAPSE indica disfunção sistólica do ventrículo direito?	TAPSE < 17 mm.
+Como calcular o débito cardíaco com POCUS?	Área do TSV (πr²) × VTI do TSV × frequência cardíaca.
+Qual achado de cava inferior sugere sobrecarga volêmica em ventilação controlada?	Diâmetro > 2,1 cm com colapso respiratório < 12%.
+Quais achados definem tamponamento cardíaco iminente?	Derrame significativo + colapso diastólico de VD + IVC distendida sem colapso.

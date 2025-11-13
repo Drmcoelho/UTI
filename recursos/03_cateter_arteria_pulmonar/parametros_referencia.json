@@ -1,0 +1,21 @@
+{
+  "intervalos_pressao": {
+    "pad_mmHg": {
+      "otimo": [2, 8],
+      "alerta": [9, 15]
+    },
+    "pap_media_mmHg": {
+      "otimo": [15, 25],
+      "alerta": [26, 35]
+    },
+    "pcp_mmHg": {
+      "otimo": [8, 18],
+      "alerta": [19, 24]
+    }
+  },
+  "metas_hemodinamicas": {
+    "indice_cardiaco_min": 2.2,
+    "saturacao_venosa_mista": 0.65,
+    "lactato_max": 2.0
+  }
+}

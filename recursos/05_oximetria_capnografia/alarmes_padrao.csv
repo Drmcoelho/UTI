@@ -1,0 +1,6 @@
+parametro,limite_inferior,limite_superior,recomendacao
+SpO2,92,100,"Ajustar conforme alvo individual (ex.: 88-92% em DPOC)"
+Indice_perfusao,1.0,,"Valores <1% demandam verificação de perfusão periférica"
+ETCO2,25,55,"Reavaliar ventilação, circuitos e perfusão se fora dos limites"
+CO2_inspiratorio,0,3,"Valores >3 mmHg indicam reinalação"
+Frequencia_respiratoria,10,28,"Customizar para sedação ou ventilação controlada"

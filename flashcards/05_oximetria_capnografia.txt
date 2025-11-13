@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 05
+
+Qual diferença aceitável entre ETCO₂ e PaCO₂ em ventilação mecânica estável?	Até 10 mmHg.
+Que formato da curva capnográfica sugere broncoespasmo?	Platô em dente de tubarão.
+O que significa índice de perfusão < 0,5%?	Hipoperfusão periférica grave; verificar sítio e hemodinâmica.
+Quais sinais indicam reinalação de CO₂?	Retorno incompleto à linha de base e CO₂ inspiratório elevado.
+Quando aumento do ETCO₂ durante RCP é favorável?	Quando sinaliza compressões efetivas e possível retorno de circulação.

@@ -1,0 +1,15 @@
+#deck:UTI 360 — Módulo 12
+
+Meta glicêmica padrão em UTI\t140-180 mg/dL segundo diretrizes internacionais.
+Fórmula do fator de sensibilidade (regra 1800)\t1800 ÷ dose total diária de insulina basal-bolus.
+Definição de hipoglicemia grave\tGlicemia < 40 mg/dL ou qualquer hipoglicemia com alteração neurológica.
+Taxa de variação segura\tRedução de 30-50 mg/dL por hora; ajustes maiores exigem atenção.
+Conduta diante de pausa de dieta\tReduzir infusão de insulina 50% ou suspender temporariamente e monitorar glicemia.
+Indicador-chave de qualidade\tTime in Range (tempo na meta) ≥ 70% das medições.
+Gatilho comum de hipoglicemia em UTI\tInterrupção de dieta enteral sem ajuste da infusão de insulina.
+Impacto dos corticoides\tAumentam resistência à insulina e requerem intensificação do protocolo.
+Checagem dupla obrigatória\tAntes de qualquer ajuste na bomba de insulina intravenosa.
+Integração com NPT\tAjustar insulina conforme taxa de dextrose e calorias não proteicas.
+Resposta a hipoglicemia < 70 mg/dL\tAdministrar 20-25 mL de dextrose 50%, reavaliar em 10-15 minutos e ajustar infusão.
+Dexmedetomidina e hipoglicemia\tPode mascarar sinais autonômicos; monitorização intensificada.
+Indicador de segurança adicional\tNúmero de hipoglicemias graves por 100 pacientes-dia.

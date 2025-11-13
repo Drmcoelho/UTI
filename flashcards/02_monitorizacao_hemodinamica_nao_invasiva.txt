@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 02
+
+Como calcular a PAM a partir de medidas oscilométricas?\tPAM ≈ PAD + (PAS − PAD)/3.
+Qual índice de perfusão (PI) sugere hipoperfusão periférica?\tPI < 1,4% em paciente afebril e normóxico.
+Qual a frequência mínima de reavaliação de PAM em monitorização oscilométrica contínua?\tA cada 5 minutos ou imediatamente após ajustes terapêuticos.
+Quais parâmetros ecocardiográficos são usados para estimar o débito cardíaco não invasivo?\tÁrea do TSV do VE e VTI (velocity time integral) do trato de saída.
+Qual sinal deve acionar calibração ou conversão para monitorização invasiva?\tDiscrepância > 10 mmHg entre leituras repetidas ou queda abrupta da PAM sem correlação clínica.

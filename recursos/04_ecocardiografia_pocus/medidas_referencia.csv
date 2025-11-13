@@ -1,0 +1,7 @@
+variavel,faixa_normal,alerta_baixo,alerta_alto,observacao
+FE_visual,0.50-0.70,<0.40,>0.75,"Confirmar com Simpson biplano se dúvida diagnóstica"
+TAPSE_mm,17-24,<17,>28,"TAPSE baixo sugere disfunção VD; valores muito altos podem ocorrer em hiperdinamismo"
+VTI_cm,18-22,<16,>25,"Integrar com débito cardíaco e RVS"
+IVC_diametro_cm,1.5-2.1,<1.2,>2.2,"Avaliar colapso respiratório conforme ventilação"
+IVC_colapso_pct,30-50,<20,>60,"Colapso elevado em ventilação espontânea sugere hipovolemia"
+Linhas_B_por_hemitorax,0-2,<0,>3,">3 difusas sugerem congestão pulmonar"

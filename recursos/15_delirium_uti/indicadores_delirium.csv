@@ -1,0 +1,6 @@
+indicador,meta,periodicidade
+CAM-ICU documentado 2x/dia,>=95%,semanal
+Dias livres de delirium por paciente,>=4 em 7 dias,semanal
+Uso de contenção física,<10% dos pacientes,mensal
+Tempo médio para intervenção após CAM-ICU positivo,<1 hora,semanal
+Readmissão por delirium,0 casos,trimensal

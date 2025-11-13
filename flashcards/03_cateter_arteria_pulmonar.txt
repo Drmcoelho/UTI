@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 03
+
+Qual é a posição correta da ponta do cateter de Swan-Ganz?\tRamo arterial pulmonar distal, com pressão de oclusão (PCP) fidedigna e curva dicrótica preservada.
+Qual intervalo de tempo entre medidas de termodiluição é recomendado?\tExecutar pelo menos três medições consecutivas em < 5 minutos, descartando valores discrepantes > 10%.
+Como interpretar PCP > 18 mmHg associada a índice cardíaco < 2,2 L/min/m²?\tChoque cardiogênico com congestão pulmonar grave.
+Qual fórmula estima a resistência vascular sistêmica (RVS)?\tRVS = 80 × (PAM − PVC) / Débito cardíaco.
+Quais sinais autorizam a retirada do cateter de artéria pulmonar?\tEstabilidade hemodinâmica ≥ 24 h, IC ≥ 2,2 L/min/m², SvO₂ ≥ 65% e ausência de necessidade de ajustes de drogas vasoativas.

@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#deck:UTI 360 — Módulo 09
+
+Fração de sobrecarga hídrica significativa\t> 10% do peso corporal basal.
+Ferramenta ultrassonográfica para congestão venosa\tScore VEXUS avaliando fluxo hepático, portal e intrarrenal.
+Meta segura de remoção em paciente instável\t1 a 1,5 L/dia com reavaliação contínua.
+Principal eletrólito a monitorar em diurético sequencial\tPotássio sérico devido a perdas urinárias aumentadas.
+Sinal de congestão hepática grave no doppler\tFluxo portal reverso ou pulsátil acentuado.
+Indicador de hipoperfusão durante remoção agressiva\tElevação do lactato e queda do débito urinário.
+Quando considerar ultrafiltração contínua\tHipotensão instável ou diurese refratária < 0,5 mL/kg/h.
+Checklist diário de balanço deve incluir\tPeso, balanço acumulado, metas 24h, eletrólitos, sinais de hipoperfusão, alinhamento multiprofissional.
+Impacto da sobrecarga hídrica em ventilação mecânica\tAumenta tempo de ventilação e risco de edema pulmonar.
+Benefício da bioimpedância elétrica\tQuantifica excesso de fluido e guia metas de remoção personalizada.
