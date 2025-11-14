@@ -38,11 +38,11 @@ from simuladores.modulo_05_oximetria_capnografia import (
 )
 from simuladores.modulo_06_pressao_intracraniana import (
     EstadoPIC,
-    calcular_ppc,
     classificar_crise_pic,
     volume_drenagem_recomendado,
     avaliar_bundle_basico,
 )
+from simuladores.utils import calcular_ppc
 from simuladores.modulo_07_acesso_venoso_central import (
     AvaliacaoCVC,
     dias_para_troca_curativo,

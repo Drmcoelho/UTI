@@ -4,6 +4,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Sequence
 
+from .utils import calcular_ppc
+
 
 @dataclass(frozen=True)
 class AvaliacaoTOF:
@@ -53,14 +55,6 @@ def resumo_bundle(status: Sequence[bool]) -> str:
     if adesao >= 60:
         return f"Adesão moderada ({adesao:.0f}%) — reforçar educação"
     return f"Adesão baixa ({adesao:.0f}%) — revisar processos"
-
-
-def calcular_ppc(pam: float, pic: float) -> float:
-    """Calcula pressão de perfusão cerebral para integrar a avaliação."""
-
-    if pam <= 0 or pic < 0:
-        raise ValueError("Valores inválidos")
-    return pam - pic
 
 
 __all__ = [

@@ -28,10 +28,10 @@ from simuladores.modulo_13_sedacao_analgesia import (
 )
 from simuladores.modulo_14_bloqueio_neuromuscular import (
     AvaliacaoTOF,
-    calcular_ppc,
     dose_cisatracurio,
     resumo_bundle,
 )
+from simuladores.utils import calcular_ppc
 from simuladores.modulo_15_delirium_uti import (
     adesao_bundle_delirium,
     alerta_qtc,
