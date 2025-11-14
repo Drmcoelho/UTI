@@ -10,4 +10,4 @@ print(avaliacao.classificar())
 print(resumo_bundle([True, True, False, True, True, True]))
 ```
 
-Integre o cálculo de PPC (PAM − PIC) para alinhar metas neurológicas e defina faixas de cisatracúrio conforme estágio (induçãomanutenção-desmame).
+Integre o cálculo de PPC (PAM − PIC) para alinhar metas neurológicas e defina faixas de cisatracúrio conforme estágio (indução-manutenção-desmame).
