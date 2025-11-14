@@ -4,6 +4,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable
 
+from .utils import calcular_ppc
+
 
 @dataclass(frozen=True)
 class EstadoPIC:
@@ -19,14 +21,6 @@ class EstadoPIC:
         """Calcula pressão de perfusão cerebral (PPC)."""
 
         return self.pam - self.pic
-
-
-def calcular_ppc(pam: float, pic: float) -> float:
-    """Calcula PPC garantindo valores válidos."""
-
-    if pam <= 0 or pic < 0:
-        raise ValueError("PAM deve ser positiva e PIC não pode ser negativa")
-    return pam - pic
 
 
 def classificar_crise_pic(estado: EstadoPIC) -> str:
