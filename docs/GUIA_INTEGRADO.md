@@ -56,6 +56,11 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 |13|Sedação e Analgesia em UTI|✅|✅|✅|✅|✅|✅|✅|✅|
 |14|Bloqueio Neuromuscular|✅|✅|✅|✅|✅|✅|✅|✅|
 |15|Delirium em UTI: Diagnóstico e Manejo|✅|✅|✅|✅|✅|✅|✅|✅|
+|11|Nutrição Parenteral em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|12|Controle Glicêmico em Pacientes Críticos|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|13|Sedação e Analgesia em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|14|Bloqueio Neuromuscular|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
+|15|Delirium em UTI: Diagnóstico e Manejo|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |16|Ventilação Mecânica Invasiva: Princípios Básicos|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |17|Modos Ventilatórios: Volume vs Pressão|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |18|PEEP (Positive End-Expiratory Pressure)|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
