@@ -51,6 +51,11 @@ Cada módulo deve contemplar os seguintes componentes mínimos:
 |8|Acesso Arterial|✅|✅|✅|✅|✅|✅|✅|✅|
 |9|Balanço Hídrico e Controle de Volemia|✅|✅|✅|✅|✅|✅|✅|✅|
 |10|Nutrição Enteral em Pacientes Críticos|✅|✅|✅|✅|✅|✅|✅|✅|
+|11|Nutrição Parenteral em UTI|✅|✅|✅|✅|✅|✅|✅|✅|
+|12|Controle Glicêmico em Pacientes Críticos|✅|✅|✅|✅|✅|✅|✅|✅|
+|13|Sedação e Analgesia em UTI|✅|✅|✅|✅|✅|✅|✅|✅|
+|14|Bloqueio Neuromuscular|✅|✅|✅|✅|✅|✅|✅|✅|
+|15|Delirium em UTI: Diagnóstico e Manejo|✅|✅|✅|✅|✅|✅|✅|✅|
 |11|Nutrição Parenteral em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |12|Controle Glicêmico em Pacientes Críticos|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|
 |13|Sedação e Analgesia em UTI|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|⬜️|

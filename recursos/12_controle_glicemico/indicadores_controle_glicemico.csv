@@ -1,0 +1,6 @@
+indicador,meta,periodicidade
+Time in Range (110-180 mg/dL),>=70%,semanal
+Hipoglicemias < 70 mg/dL,<2 eventos/100 pacientes-dia,semanal
+Hipoglicemias graves < 40 mg/dL,0 eventos,mensal
+Eventos sem checagem dupla,<5% das infusões avaliadas,mensal
+Pacientes com CAM-ICU aplicado 2x/dia,>=95%,semanal

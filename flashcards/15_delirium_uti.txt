@@ -1,0 +1,14 @@
+#deck:UTI 360 — Módulo 15
+
+Periodicidade do CAM-ICU\tAvaliar pelo menos duas vezes ao dia.
+Principais fatores predisponentes\tIdade avançada, demência, uso de sedativos, infecção e privação de sono.
+Fator precipitante modificável\tRuído noturno e iluminação inadequada comprometendo higiene do sono.
+Característica do delirium hipoativo\tLetargia, fala lenta e desatenção frequentemente subdiagnosticadas.
+Componente do bundle ABCDEF\tMobilização precoce e engajamento familiar ativo.
+Uso seguro de haloperidol\tMonitorizar QTc e evitar se QTc > 500 ms ou bradiarritmias.
+Benefício da dexmedetomidina\tSedação cooperativa com menor delirium e possibilidade de comunicação.
+Estratégia não farmacológica central\tQuiet time noturno com redução de alarmes e luzes.
+Indicador de qualidade prioritário\tPercentual de pacientes com CAM-ICU documentado 2x/dia.
+Comunicação com familiares\tOrientar reorientação cognitiva, uso de fotos e conversas estruturadas.
+Critério de descontinuação de antipsicótico\tRetirar progressivamente após resolução do delirium e ausência de sintomas.
+Impacto do delirium\tAumenta mortalidade, tempo de ventilação e risco de readmissão.

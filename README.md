@@ -18,6 +18,13 @@ As frentes educacionais previstas contemplam:
 
 ## 📈 Estado Atual de Entrega
 
+- ✅ **Notebooks publicados:** 15 de 100 (módulos 01 a 15).
+- ✅ **Casos clínicos:** trilha completa para os módulos 01 a 15.
+- ✅ **Flashcards:** conjuntos individuais para módulos 01 a 15 em formato Anki.
+- ✅ **Exercícios:** bancos completos com 3 dissertativas, 8 MCQ interativas e 15 V/F para os módulos 01 a 15.
+- ✅ **Simuladores:** scripts Python dedicados aos módulos 01 a 15.
+- ✅ **Scriptable:** widgets prontos para uso beira-leito nos módulos 01 a 15.
+- ✅ **Testes automatizados:** suíte cobre simuladores e integridade das questões dos módulos 01 a 15.
 - ✅ **Notebooks publicados:** 10 de 100 (módulos 01 a 10, 20 e 21).
 - ✅ **Casos clínicos:** trilha completa para os módulos 01 a 10.
 - ✅ **Flashcards:** conjuntos individuais para módulos 01 a 10 em formato Anki.

@@ -1,0 +1,15 @@
+#deck:UTI 360 — Módulo 11
+
+Indicação absoluta de NPT exclusiva\tFístula entérica de alto débito com íleo prolongado e impossibilidade de enteral efetiva.
+Peso ajustado para desnutrição grave\tPeso atual + (IMC alvo − IMC atual) × altura².
+Distribuição calórica clássica da NPT\t60% carboidrato, 20% proteína, 20% lipídio.
+Relação caloria não proteica/nitrogênio ideal\tAproximadamente 100-120:1 para evitar sobrecarga de carboidratos.
+Suplementação essencial antes da NPT\tTiamina, fósforo, magnésio e eletrólitos conforme deficiências.
+Meta glicêmica em pacientes críticos em NPT\t140-180 mg/dL com protocolo de insulina intravenosa.
+Monitorização de triglicerídeos\tDosar 2-3x/semana e suspender lipídio se > 400-500 mg/dL.
+Limite de osmolaridade para acesso periférico\t≤ 700-750 mOsm/L; preferir via central acima disso.
+Bundle de cateter exclusivo para NPT\tTécnica asséptica, curativo estéril a cada 48h, uso exclusivo e checagem diária.
+Sinal de síndrome de realimentação\tQueda abrupta de fósforo, magnésio e potássio com retenção hídrica.
+Ajuste de NPT com início de dieta enteral\tReduzir calorias não proteicas equivalentes ao aporte enteral mantendo proteína.
+Critério para home parenteral\tEstabilidade hemodinâmica, equipe treinada e suporte familiar capacitado.
+Indicador de qualidade da NPT\tPorcentagem de pacientes atingindo metas calóricas em 72h sem complicações metabólicas.

@@ -1,0 +1,6 @@
+momento,tof_respostas,contagem_postetanica,ajuste_sugerido
+Inicio,4,8,Iniciar infusão de bloqueador conforme protocolo
+30 min,2,NA,Manter dose atual
+60 min,1,NA,Considerar redução 10% se ventilação sincronizada
+120 min,0,2,Reduzir infusão 20% e reavaliar em 30 min
+180 min,1,NA,Manter após ajuste anterior

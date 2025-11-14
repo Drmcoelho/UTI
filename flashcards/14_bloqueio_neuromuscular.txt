@@ -1,0 +1,14 @@
+#deck:UTI 360 — Módulo 14
+
+Meta de TOF para SDRA grave\t1-2 respostas em 4 estímulos.
+Utilidade da contagem postetânica\tEstimar profundidade quando TOF 0/4; alvo 1-3 durante bloqueio.
+Critério de indicação\tPaO₂/FiO₂ < 150 com ventilação protetora e assincronias graves.
+Cuidados oculares\tLubrificação a cada 4h e oclusão para prevenir abrasão corneana.
+Bundle de pele\tMudança de decúbito a cada 2h, colchão de alívio e inspeção diária.
+Mobilização durante bloqueio\tFisioterapia passiva diária para evitar contraturas e neuropatia.
+Bradicardia durante bloqueio\tReavaliar sedação e dose do bloqueador; tratar causas associadas.
+Uso do nervo facial\tAlternativa para TOF quando edema periférico impede avaliação ulnar.
+Reversão com sugamadex\tIndicada para rocurônio em bloqueio profundo não planejado.
+Critério para desmame\tMelhora da oxigenação (PaO₂/FiO₂ > 150) e estabilidade hemodinâmica.
+Indicador de qualidade\tPercentual de tempo com TOF dentro da meta planejada.
+Risco de neuropatia\tAumenta com imobilidade prolongada, sepse e hiperglicemia.

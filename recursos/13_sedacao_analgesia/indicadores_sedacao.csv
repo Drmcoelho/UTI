@@ -1,0 +1,6 @@
+indicador,meta,observacao
+Tempo com RASS na meta,>=80%,Monitorado por turno
+CAM-ICU documentado 2x/dia,>=95%,Revisão diária
+CPOT > 3,<=10% das avaliações,Aciona revisão analgésica
+Sedação profunda não planejada,<5% dos dias de ventilação,Relacionar a interrupções de bundle
+Mobilização precoce realizada,>=70% dos pacientes elegíveis,Registrar nível de mobilidade (IMS)

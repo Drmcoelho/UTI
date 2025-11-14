@@ -1,0 +1,14 @@
+#deck:UTI 360 — Módulo 13
+
+Meta RASS para ventilação estável\t−2 a 0, permitindo sedação leve e interação com equipe.
+Escala CPOT ideal\tManter CPOT < 3 indicando controle adequado da dor.
+Indicação de troca de propofol\tTriglicerídeos > 400-500 mg/dL ou sinais de síndrome da infusão.
+Benefício da dexmedetomidina\tSedação cooperativa com menor delirium e preservação respiratória.
+Componentes do bundle ABCDEF\tAvaliar dor, despertar diário, escolha de sedativos, prevenção de delirium, mobilização, família.
+Critérios antes de interromper sedação\tEstabilidade hemodinâmica, oxigenação adequada e analgesia controlada.
+Uso da quetamina\tAdjuvante analgésico útil em hipotensão moderada ou tolerância opioide.
+Importância do CAM-ICU\tRastrear delirium hiperativo/hipoativo diariamente após despertar.
+Monitorização de BIS\tManter 40-60 para sedação profunda; >60 para sedação leve orientada.
+Analgesia multimodal\tCombina opioides, paracetamol, cetamina, bloqueios regionais e técnicas não farmacológicas.
+Indicador de qualidade\tPercentual de tempo com RASS dentro da meta planejada.
+Estratégia não farmacológica\tMusicoterapia e presença familiar reduzem ansiedade e uso de sedativos.
